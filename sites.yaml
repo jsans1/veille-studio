@@ -89,6 +89,24 @@ sites:
 - name: Immotop
   url: https://www.immotop.fr/annonce-immobiliere/?location%5B%5D=aubervilliers-93300&location%5B%5D=pantin-93500&location%5B%5D=paris-75010&location%5B%5D=paris-75018&location%5B%5D=saint-denis-93200&status%5B%5D=louer&type%5B%5D=appartement
   pattern: /annonces/
+- name: Clichy Immobilier
+  url: https://www.clichyimmobilier.fr/location/maison?prod.prod_type=house%2Cappt&prod.budget_rent_max=850
+  pattern: /location/[^/,]+,L
+- name: Espace Carrez
+  url: https://www.espacecarrez.com/location/appartement?prod.prod_type=appt&prod.budget_rent_max=850
+  pattern: /location/[^/,]+,L
+- name: Agence La Garenne
+  url: https://www.agence-la-garenne.com/location/1
+  pattern: /location/\d+-[^/]+/[^/]+/\d+-
+  exclude: /(parking|box|local|bureau)/
+- name: AVL Immobilier
+  url: https://www.avl-immobilier.com/annonces/transaction/Location.html
+  mode: http
+  pattern: /fiches/
+  exclude: (parking|box|bureau|local)
+- name: Agences 19
+  url: https://agences19.fr/nos-annonces/?_bien_mandat=Location
+  pattern: /bien/
 - name: Oralia
   url: https://oralia.fr/nos-annonces?locations=Saint-Ouen+-+93400&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=25&surface%5BmaxSurface%5D=&type=rental&from=filter
   exclude: nos-annonces
