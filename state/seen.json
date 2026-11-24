@@ -1,1 +1,128 @@
-{}
+{
+ "fails": {},
+ "seen": {
+  "Bienici Aubervilliers": [
+   "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/ag755239-352352181",
+   "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/ladresse-1-adresse-12319113",
+   "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/nestenn-1-99939775089",
+   "https://www.bienici.com/annonce/location/aubervilliers/appartement/2pieces/ag313862-562273673",
+   "https://www.bienici.com/annonce/location/aubervilliers/appartement/2pieces/ag753240-557592977"
+  ],
+  "Bienici Clichy": [
+   "https://www.bienici.com/annonce/location/clichy/appartement/1piece/immo-facile-37967877",
+   "https://www.bienici.com/annonce/location/clichy/appartement/1piece/immo-facile-61733729",
+   "https://www.bienici.com/annonce/location/clichy/appartement/2pieces/ag941973-562431314",
+   "https://www.bienici.com/annonce/location/clichy/appartement/3pieces/guy-hoquet-immo-facile-6417691",
+   "https://www.bienici.com/annonce/location/clichy/appartement/4pieces/nockee-prop_ad_032wYCRh0iSNh7GOHyRQH2"
+  ],
+  "Bienici Pantin": [
+   "https://www.bienici.com/annonce/location/pantin/appartement/1piece/dauchez-32750",
+   "https://www.bienici.com/annonce/location/pantin/appartement/1piece/hektor-cmb-7852"
+  ],
+  "Bienici Paris 17": [
+   "https://www.bienici.com/annonce/location/paris-17e/appartement/1piece/ag750940-561575675",
+   "https://www.bienici.com/annonce/location/paris-17e/appartement/1piece/ag752969-559555244",
+   "https://www.bienici.com/annonce/location/paris-17e/appartement/1piece/ag756576-562293728",
+   "https://www.bienici.com/annonce/location/paris-17e/appartement/1piece/hektor-cmb-1372"
+  ],
+  "Bienici Paris 18": [
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/ag752345-555179819",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/ag752345-561265100",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/ag752861-530542784",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/apimo-87632153",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/guy-hoquet-immo-facile-6102760",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/guy-hoquet-immo-facile-7832575",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/immo-facile-34107431"
+  ],
+  "Bienici Saint-Denis": [
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ag752352-560551229",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ag754025-547724330",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ag755239-559295246",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ag922145-439623122",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/guy-hoquet-immo-facile-5563534",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/iad-france-2150019",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ifsp6a-5492290",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/2pieces/hektor-fadeuxi11-88",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/4pieces/ag752345-551254499",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/5pieces/ag603630-514172303"
+  ],
+  "Bienici Saint-Ouen": [
+   "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/ag752861-507991829",
+   "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/hektor-fadeuxi11-74"
+  ],
+  "CDC Habitat 93": [
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/861549",
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-et-marne/chelles/1175218"
+  ],
+  "Century 21 Wilson": [
+   "https://www.century21-wilson-st-ouen.com/trouver_logement/detail/15665372289"
+  ],
+  "Citya Aubervilliers": [],
+  "Citya Clichy": [],
+  "Citya Pantin": [],
+  "Citya Saint-Denis": [],
+  "Citya Saint-Ouen": [],
+  "ERA": [
+   "https://www.eraimmobilier.com/annonces/576257"
+  ],
+  "FA2I": [
+   "https://www.fa2i.fr/fiches/3-32-35_61751553/location-meublee-2-pieces-sainte-denis.html?offset=&search_id=1882757426920867"
+  ],
+  "Guy Hoquet": [
+   "https://www.guy-hoquet.com/location/appartement-1-piece-paris-75018-1473590",
+   "https://www.guy-hoquet.com/location/appartement-1-piece-paris-75018-1913790",
+   "https://www.guy-hoquet.com/location/appartement-1-piece-saint-denis-93200-1255942",
+   "https://www.guy-hoquet.com/location/appartement-3-pieces-clichy-92110-1538733"
+  ],
+  "IBI Immobilier": [
+   "https://www.ibi-immobilier.fr/location/1-st-denis/appartement/3454-appartement-t2-42-78-m-saint-denis",
+   "https://www.ibi-immobilier.fr/location/468-drancy/appartement/3417-studio-t1-21-25-m-drancy",
+   "https://www.ibi-immobilier.fr/location/61-sarcelles/appartement/3451-appartement-t3-69-09-m-sarcelles",
+   "https://www.ibi-immobilier.fr/location/7-stains/duplex/3414-duplex-avec-terrasse-t4-91-2-m-stains-93240"
+  ],
+  "Inli Aubervilliers": [
+   "https://www.inli.fr/location-appartement-aubervilliers-93300/PRV-385141",
+   "https://www.inli.fr/location-appartement-aubervilliers-93300/x3F-0918-1122L"
+  ],
+  "Inli Clichy": [
+   "https://www.inli.fr/location-appartement-clichy-92110/PRV-216195",
+   "https://www.inli.fr/location-appartement-clichy-92110/PRV-277661",
+   "https://www.inli.fr/location-appartement-clichy-92110/PRV-277676"
+  ],
+  "Inli Pantin": [
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-058686",
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-058757",
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-271594",
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-309418"
+  ],
+  "Inli Paris": [
+   "https://www.inli.fr/location-appartement-paris-18eme-75018/441-3122-9835",
+   "https://www.inli.fr/location-appartement-paris-75011/PRV-252778",
+   "https://www.inli.fr/location-appartement-paris-75012/PRV-217514",
+   "https://www.inli.fr/location-appartement-paris-75012/PRV-217541",
+   "https://www.inli.fr/location-appartement-paris-75013/PRV-314458",
+   "https://www.inli.fr/location-appartement-paris-75018/PRV-379602",
+   "https://www.inli.fr/location-appartement-paris-75019/PRV-276284",
+   "https://www.inli.fr/location-appartement-paris-75020/PRV-056205",
+   "https://www.inli.fr/location-appartement-paris-75020/PRV-056216",
+   "https://www.inli.fr/location-appartement-paris-75020/PRV-056276",
+   "https://www.inli.fr/location-appartement-paris-75020/PRV-056439",
+   "https://www.inli.fr/location-appartement-paris-75020/PRV-056525",
+   "https://www.inli.fr/location-appartement-paris-75020/PRV-251606"
+  ],
+  "Inli Saint-Denis": [],
+  "Inli Saint-Ouen": [
+   "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1225L",
+   "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1235L",
+   "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1301L"
+  ],
+  "Oralia": [],
+  "Orpi": [
+   "https://www.orpi.com/annonce-location-appartement-t3-paris-15-75015-7b79ad23-1234-4cdf-970e-052bd5e19e29",
+   "https://www.orpi.com/annonce-location-stationnement-pantin-93500-d3397773-c015-4016-b2ae-9fbce0a1f14f"
+  ],
+  "Parisloc": [],
+  "Procivis": [],
+  "Sergic": []
+ }
+}
