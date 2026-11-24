@@ -31,7 +31,7 @@ UA = (
     "(KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
 DEFAULT_PATTERN = r"\d{4,}"  # la plupart des annonces ont un identifiant numérique
-GLOBAL_EXCLUDE = r"(^tel:|^mailto:|^javascript:|[?&]page=|/page/\d|/agence|/contact|/estimation|/actus?/|/blog|/conseils?)"
+GLOBAL_EXCLUDE = r"(^tel:|^mailto:|^javascript:|[?&]page=|/page/\d|/agences?/?$|/agence-immobiliere/[^/]+/?$|/contact|/estimation|/actus?/|/blog|/conseils?)"
 TRACKING_PARAMS = re.compile(r"^(utm_|fbclid|gclid|xtor|at_|_ga)", re.I)
 MAX_NOTIFS_PER_SITE = 8  # au-delà : probablement un changement de mise en page
 FAIL_ALERT_AFTER = 3
