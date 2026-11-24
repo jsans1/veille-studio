@@ -61,7 +61,7 @@ def _summarize(text: str) -> str:
     surf = re.search(r"(\d+(?:[.,]\d+)?)\s?m(²|2)\b", t, re.I)
     if surf:
         parts.append(f"{surf.group(1)} m²")
-    price = re.search(r"(\d{1,2}[ .]?\d{3}|\d{3})(?:[.,]\d{1,2})?\s?(€|euros?\b)", t, re.I)
+    price = re.search(r"(?<![\w.,])(\d{1,2}[ .]?\d{3}|\d{3})(?:[.,]\d{1,2})?\s?(€|euros?\b)", t, re.I)
     if price:
         parts.append(re.sub(r"\s?(€|euros?)$", " €", price.group(0), flags=re.I))
     place = re.search(r"\b(75|92|93|94|95)\d{3}\b[^|€\d]{0,40}", t)
