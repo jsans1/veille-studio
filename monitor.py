@@ -212,6 +212,7 @@ def run() -> int:
     state = load_state()
     seen = state.setdefault("seen", {})
     fails = state.setdefault("fails", {})
+    counts = state.setdefault("counts", {})
     fetcher = Fetcher()
     errors = 0
 
@@ -238,6 +239,24 @@ def run() -> int:
                 continue
 
             fails.pop(key, None)
+
+            # Surveillance par compteur, pour les sites dont les annonces n'ont pas de lien lisible
+            count = None
+            if site.get("count_regex") or site.get("empty_text"):
+                text = re.sub(r"\s+", " ", BeautifulSoup(html, "html.parser").get_text(" "))
+                if site.get("count_regex"):
+                    mt = re.search(site["count_regex"], text, re.I)
+                    count = int(mt.group(1)) if mt else 0
+                else:
+                    count = 0 if site["empty_text"].lower() in text.lower() else 1
+                if DEBUG:
+                    print(f"   compteur {key} : {count}")
+                else:
+                    prev = counts.get(key)
+                    counts[key] = count
+                    if prev is not None and count > prev:
+                        notify(f"🏠 {key}", f"Nouvelle(s) annonce(s) : {prev} → {count}. Touche pour voir la liste.",
+                               click=url, tags=["house"], priority=4)
 
             if DEBUG:
                 print(f"\n== {key} ({mode}) : {len(links)} liens d'annonces")

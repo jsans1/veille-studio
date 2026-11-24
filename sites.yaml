@@ -123,12 +123,22 @@ sites:
 - name: Agence du Faubourg
   url: https://www.agencedufaubourg.fr/louer/?typeBienLocation=255&surfaceBienLocation=&budgetLocationBien=&piecesBienLocation=&submitSearch=1
   exclude: (/assets/|\.pdf$|/index\.php$)
+  empty_text: Aucun bien ne correspond
 - name: Ernest et Associes
   url: https://www.ernest-et-associes.com/index.php?contr=biens_liste&tri_lots=date&type_transaction=1&localisation=&hidden-localisation=&surface=25&budget_min=&budget_max=850&page=0&vendus=0&submit_search_1=
   exclude: (/(location|vente)/.*\d+/\d+$|estimation|\.pdf$)
 - name: Immona
   url: https://www.immona-groupe.fr/location/appartement?prod.prod_type=appt&prod.budget_rent_max=850&prod.surface_min=25
   pattern: /location/[^/,]*(saint-ouen|st-ouen|saint-denis|st-denis|aubervilliers|pantin|clichy|paris)[^/,]*,L
+- name: Manda
+  url: https://www.manda.fr/location-immobiliere?lieu=Saint-Ouen-sur-Seine%2C+93400%2C+France&max_latitude=48.8148&max_longitude=2.2024&min_latitude=49.0084&min_longitude=2.4651&move_search=true&type=place&zoom=12&show_rented_flats=false&rent=0-850&area=25-200
+  pattern: ^$NEVER
+  count_regex: (\d+) logements? disponibles?
+  wait: 6000
+- name: SGL
+  url: https://sgl-immo.com/recherche-de-bien/?typeRecherche=location&localisation=Saint-Ouen-sur-Seine&type_bien=appartement&budgetMax=850&surface_inf=25
+  empty_text: Aucun bien ne correspond
+  exclude: /(achat|maison|agence|outils|investissement|devenir|vendre|gestion|syndic|actualites|location-(maison|appartement)/?$)
 - name: Oralia
   url: https://oralia.fr/nos-annonces?locations=Saint-Ouen+-+93400&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=25&surface%5BmaxSurface%5D=&type=rental&from=filter
   exclude: nos-annonces
