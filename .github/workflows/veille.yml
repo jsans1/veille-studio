@@ -1,0 +1,60 @@
+name: Veille studio
+
+on:
+  schedule:
+    # Heures en UTC. 6h-19h UTC = 7h-20h40 à Paris en hiver (8h-21h40 en été).
+    # Toutes les 20 min, du lundi au samedi.
+    - cron: "*/20 6-19 * * 1-6"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "normal, test (affiche ce qui est trouvé, n'envoie rien) ou notif (notification de test)"
+        type: choice
+        options: [normal, test, notif]
+        default: normal
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dépendances
+        run: pip install -r requirements.txt
+
+      - name: Cache du navigateur
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Navigateur
+        run: python -m playwright install --with-deps chromium
+
+      - name: Vérifier les annonces
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DEBUG: ${{ inputs.mode == 'test' && '1' || '' }}
+          TEST_NOTIF: ${{ inputs.mode == 'notif' && '1' || '' }}
+        run: python monitor.py
+
+      - name: Sauvegarder les annonces déjà vues
+        if: ${{ inputs.mode != 'test' && inputs.mode != 'notif' }}
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add state/seen.json
+          git diff --cached --quiet || (git commit -m "Mise à jour des annonces vues" && git push)
