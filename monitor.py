@@ -51,35 +51,78 @@ def normalize(url: str, keep_query: bool = True) -> str:
     return urlunparse((p.scheme, p.netloc.lower(), p.path.rstrip("/") or "/", "", query, ""))
 
 
-def extract_links(html: str, base_url: str, pattern: str, exclude: str | None,
-                  keep_query: bool) -> list[str]:
+def _summarize(text: str) -> str:
+    """Résume le texte d'une carte d'annonce : type · surface · prix · lieu."""
+    t = re.sub(r"[\s\u00a0\u202f]+", " ", text).strip()
+    parts = []
+    typ = re.search(r"\b(studio|appartement|appart|t\d|f\d|\d+\s*pi[eè]ces?|chambre|maison|duplex|loft)\b", t, re.I)
+    if typ:
+        parts.append(typ.group(0).strip().capitalize())
+    surf = re.search(r"(\d+(?:[.,]\d+)?)\s?m(²|2)\b", t, re.I)
+    if surf:
+        parts.append(f"{surf.group(1)} m²")
+    price = re.search(r"(\d{1,2}[ .]?\d{3}|\d{3})(?:[.,]\d{1,2})?\s?(€|euros?\b)", t, re.I)
+    if price:
+        parts.append(re.sub(r"\s?(€|euros?)$", " €", price.group(0), flags=re.I))
+    place = re.search(r"\b(75|92|93|94|95)\d{3}\b[^|€\d]{0,40}", t)
+    if place:
+        parts.append(place.group(0).strip(" -,|"))
+    if len(parts) >= 2:
+        return " · ".join(parts)
+    return t[:140]
+
+
+def extract_listings(html: str, base_url: str, pattern: str, exclude: str | None,
+                     keep_query: bool) -> list[tuple[str, str]]:
+    """Renvoie [(lien, résumé)] pour chaque lien d'annonce de la page."""
     soup = BeautifulSoup(html, "html.parser")
     base_host = urlparse(base_url).netloc.lower().removeprefix("www.")
     page_self = normalize(base_url, keep_query)
     rx = re.compile(pattern)
     rx_ex = re.compile(exclude) if exclude else None
     rx_global = re.compile(GLOBAL_EXCLUDE, re.I)
-    found: list[str] = []
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
+
+    def target_of(a):
+        href = a.get("href", "").strip()
         if not href or href.startswith("#") or rx_global.search(href):
-            continue
+            return None
         absolute = urljoin(base_url, href)
         p = urlparse(absolute)
         if p.scheme not in ("http", "https"):
-            continue
+            return None
         if p.netloc.lower().removeprefix("www.") != base_host:
-            continue
+            return None
         target = p.path + ("?" + p.query if p.query else "")
-        if not rx.search(target):
-            continue
-        if rx_ex and rx_ex.search(target):
-            continue
+        if not rx.search(target) or (rx_ex and rx_ex.search(target)):
+            return None
         norm = normalize(absolute, keep_query)
-        if norm == page_self or norm in found:
-            continue
-        found.append(norm)
-    return found
+        return None if norm == page_self else norm
+
+    anchors = [(a, target_of(a)) for a in soup.find_all("a", href=True)]
+    anchors = [(a, t) for a, t in anchors if t]
+    found: dict[str, str] = {}
+    for a, url in anchors:
+        node = a
+        for _ in range(6):
+            txt = node.get_text(" ", strip=True)
+            if "€" in txt or "m²" in txt:
+                break
+            parent = node.parent
+            if parent is None:
+                break
+            others = {target_of(x) for x in parent.find_all("a", href=True)} - {None, url}
+            if others:
+                break
+            node = parent
+        summary = _summarize(node.get_text(" | ", strip=True))
+        if url not in found or (len(summary) > len(found[url]) and "€" in summary):
+            found[url] = summary
+    return list(found.items())
+
+
+def extract_links(html: str, base_url: str, pattern: str, exclude: str | None,
+                  keep_query: bool) -> list[str]:
+    return [u for u, _ in extract_listings(html, base_url, pattern, exclude, keep_query)]
 
 
 def load_state() -> dict:
@@ -180,8 +223,10 @@ def run() -> int:
             keep_query = site.get("keep_query", False)
             try:
                 html = fetcher.http(url) if mode == "http" else fetcher.browser(url, site.get("wait", 4000))
-                links = extract_links(html, url, site.get("pattern", DEFAULT_PATTERN),
-                                      site.get("exclude"), keep_query)
+                listings = extract_listings(html, url, site.get("pattern", DEFAULT_PATTERN),
+                                            site.get("exclude"), keep_query)
+                links = [u for u, _ in listings]
+                summaries = dict(listings)
             except Exception as e:  # noqa: BLE001 - on veut continuer sur les autres sites
                 errors += 1
                 fails[key] = fails.get(key, 0) + 1
@@ -197,7 +242,7 @@ def run() -> int:
             if DEBUG:
                 print(f"\n== {key} ({mode}) : {len(links)} liens d'annonces")
                 for l in links[:6]:
-                    print(f"   {l}")
+                    print(f"   {l}  [{summaries.get(l, '')}]")
                 continue
 
             previous = set(seen.get(key, []))
@@ -221,7 +266,9 @@ def run() -> int:
                        click=url, tags=["house"])
             else:
                 for l in new:
-                    notify(f"Nouvelle annonce : {key}", l, click=l, tags=["house"], priority=4)
+                    resume = summaries.get(l) or ""
+                    message = f"{resume}\n{l}" if resume else l
+                    notify(f"🏠 {key}", message, click=l, tags=["house"], priority=4)
             time.sleep(1)
     finally:
         fetcher.close()
