@@ -28,6 +28,12 @@ sites:
 - name: Bienici Paris 18
   url: https://www.bienici.com/recherche/location/paris-18e-75018/appartement?prix-max=850&mode=liste
   pattern: /annonce/location/
+- name: Bienici Paris 10
+  url: https://www.bienici.com/recherche/location/paris-10e-75010/appartement?prix-max=850&mode=liste
+  pattern: /annonce/location/
+- name: Bienici Paris 19
+  url: https://www.bienici.com/recherche/location/paris-19e-75019/appartement?prix-max=850&mode=liste
+  pattern: /annonce/location/
 - name: Laforet Saint-Ouen
   url: https://www.laforet.com/ville/location-appartement-saint-ouen-93400
   pattern: /louer/saint-ouen/[^/]*-\d{6,}$
@@ -47,7 +53,7 @@ sites:
   url: https://www.orpi.com/recherche?transactions%5B0%5D=rent&resultUrl=&locations%5B0%5D%5Bvalue%5D=paris-metropole&locations%5B0%5D%5Blabel%5D=Paris%20-%20M%C3%A9tropole&locations%5B0%5D%5Blatitude%5D=48.8593&locations%5B0%5D%5Blongitude%5D=2.34694&locations%5B1%5D%5Bvalue%5D=saint-ouen&locations%5B1%5D%5Blabel%5D=Saint-Ouen%20%2893400%29%20-%20Ville&locations%5B1%5D%5Blatitude%5D=48.9114&locations%5B1%5D%5Blongitude%5D=2.3328&locations%5B2%5D%5Bvalue%5D=aubervilliers&locations%5B2%5D%5Blabel%5D=Aubervilliers%20%2893300%29%20-%20Ville&locations%5B2%5D%5Blatitude%5D=48.9133&locations%5B2%5D%5Blongitude%5D=2.38885&locations%5B3%5D%5Bvalue%5D=saint-denis-seine-saint-denis-la-plaine-saint-denis&locations%5B3%5D%5Blabel%5D=La%20Plaine%20Saint-Denis%20%2893210%29%20-%20Quartier&locations%5B3%5D%5Blatitude%5D=48.9124&locations%5B3%5D%5Blongitude%5D=2.35774&locations%5B4%5D%5Bvalue%5D=saint-denis-seine-saint-denis-pleyel&locations%5B4%5D%5Blabel%5D=Pleyel%20%2893200%29%20-%20Quartier&locations%5B4%5D%5Blatitude%5D=48.9216&locations%5B4%5D%5Blongitude%5D=2.34287&locations%5B5%5D%5Bvalue%5D=pantin&locations%5B5%5D%5Blabel%5D=Pantin%20%2893500%29%20-%20Ville&locations%5B5%5D%5Blatitude%5D=48.9009&locations%5B5%5D%5Blongitude%5D=2.40876&locations%5B6%5D%5Bvalue%5D=clichy&locations%5B6%5D%5Blabel%5D=Clichy%20%2892110%29%20-%20Ville&locations%5B6%5D%5Blatitude%5D=48.9043&locations%5B6%5D%5Blongitude%5D=2.30322&agency=&minSurface=25&maxSurface=&minLotSurface=&maxLotSurface=&minStoryLocation=&maxStoryLocation=&newBuild=&oldBuild=&lifeAnnuity=&minPrice=&maxPrice=850&sort=date-down&layoutType=list&page=1&recentlySold=false&searchRange=
   pattern: /annonce-location-
 - name: Guy Hoquet
-  url: https://www.guy-hoquet.com/biens/result#1&p=1&f10=2&f20=saint-ouen-sur-seine-93400_c3,clichy-92110_c3,paris-18e-75018_c3,paris-17e-75017_c3,aubervilliers-93300_c3,saint-denis-93200_c3,pantin-93500_c3&f30=appartement&f40=850
+  url: https://www.guy-hoquet.com/biens/result#1&p=1&f10=2&f20=saint-ouen-sur-seine-93400_c3,clichy-92110_c3,paris-18e-75018_c3,paris-17e-75017_c3,aubervilliers-93300_c3,saint-denis-93200_c3,pantin-93500_c3,paris-10e-75010_c3,paris-19e-75019_c3&f30=appartement&f40=850
   wait: 6000
   exclude: /biens/result
 - name: ERA
