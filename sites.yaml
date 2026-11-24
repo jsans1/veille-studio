@@ -71,6 +71,24 @@ sites:
 - name: Citya Pantin
   url: https://www.citya.com/annonces/location/pantin-93500?prixMax=850&surfaceMin=25
   pattern: /annonces/location/[^/]+/pantin-93500/
+- name: Moriss Immobilier
+  url: https://www.morissimmobilier.com/louer-appartements/?type=Appartement&surface=25&nb-bedrooms=&budget=850
+  pattern: /biens/
+- name: Saint-Denis Immobilier
+  url: https://saint-denis-immobilier.fr/louer/?pmax=850&smin=25
+  pattern: /bien/
+  exclude: /bien/(local|parking|box|bureau|commerce|cave)
+- name: L'Adresse
+  url: https://www.ladresse.com/recherche/location/tous-types/saint-ouen-93400?filtres=budget_max=850
+  pattern: /annonce/location/(appartement|studio|maison)/(saint-ouen[a-z-]*-93400|clichy-92110|saint-denis-932[01]0|aubervilliers-93300|pantin-93500|paris-750(17|18))/
+- name: Sabimmo
+  url: https://www.sabimmo.fr/catalog/advanced_search_result.php?action=update_search&search_id=&C_28_search=EGAL&C_28_type=UNIQUE&C_28=Location&C_28_tmp=Location&C_27_search=EGAL&C_27_type=TEXT&C_27=&C_65_search=CONTIENT&C_65_type=TEXT&C_65=&C_31_MAX=850&C_34_MIN=&C_34_search=COMPRIS&C_34_type=NUMBER&C_31_MIN=&C_31_search=COMPRIS&C_31_type=NUMBER&C_34_MAX=&C_33_search=COMPRIS&C_33_type=NUMBER&C_33_MIN=&C_33_MAX=&C_38_search=COMPRIS&C_38_type=NUMBER&C_38_MIN=&C_38_MAX=&C_36_MIN=&C_36_search=COMPRIS&C_36_type=NUMBER&C_36_MAX=&keywords=
+  mode: http
+  pattern: /fiches/[^/]+/[^/]*(st-ouen|saint-ouen|st-denis|saint-denis|clichy|aubervilliers|pantin|paris)[^/]*\.html
+  exclude: (box|bureau|parking|local|commerce)
+- name: Immotop
+  url: https://www.immotop.fr/annonce-immobiliere/?location%5B%5D=aubervilliers-93300&location%5B%5D=pantin-93500&location%5B%5D=paris-75010&location%5B%5D=paris-75018&location%5B%5D=saint-denis-93200&status%5B%5D=louer&type%5B%5D=appartement
+  pattern: /annonces/
 - name: Oralia
   url: https://oralia.fr/nos-annonces?locations=Saint-Ouen+-+93400&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=25&surface%5BmaxSurface%5D=&type=rental&from=filter
   exclude: nos-annonces
