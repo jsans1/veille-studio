@@ -116,6 +116,19 @@ sites:
 - name: Agences 19
   url: https://agences19.fr/nos-annonces/?_bien_mandat=Location
   pattern: /bien/
+- name: Real 31 Clichy
+  url: https://www.real31.fr/catalog/advanced_search_result.php?action=update_search&search_id=&C_28_search=EGAL&C_28_type=UNIQUE&C_28=Location&C_28_tmp=Location&C_65_search=CONTIENT&C_65_type=TEXT&C_65=92110+CLICHY&C_65_tmp=92110+CLICHY&C_27_search=EGAL&C_27_type=TEXT&C_27=&C_34_MIN=25&C_34_search=COMPRIS&C_34_type=NUMBER&C_31_MAX=850&C_31_search=COMPRIS&C_31_type=NUMBER&keywords=&C_34_MAX=&C_31_MIN=&C_33_search=COMPRIS&C_33_type=NUMBER&C_33_MIN=&C_38_search=COMPRIS&C_38_type=NUMBER&C_38_MIN=
+  mode: http
+  pattern: /fiches/[^/]+/[^/]*clichy
+- name: Agence du Faubourg
+  url: https://www.agencedufaubourg.fr/louer/?typeBienLocation=255&surfaceBienLocation=&budgetLocationBien=&piecesBienLocation=&submitSearch=1
+  exclude: (/assets/|\.pdf$|/index\.php$)
+- name: Ernest et Associes
+  url: https://www.ernest-et-associes.com/index.php?contr=biens_liste&tri_lots=date&type_transaction=1&localisation=&hidden-localisation=&surface=25&budget_min=&budget_max=850&page=0&vendus=0&submit_search_1=
+  exclude: (/(location|vente)/.*\d+/\d+$|estimation|\.pdf$)
+- name: Immona
+  url: https://www.immona-groupe.fr/location/appartement?prod.prod_type=appt&prod.budget_rent_max=850&prod.surface_min=25
+  pattern: /location/[^/,]*(saint-ouen|st-ouen|saint-denis|st-denis|aubervilliers|pantin|clichy|paris)[^/,]*,L
 - name: Oralia
   url: https://oralia.fr/nos-annonces?locations=Saint-Ouen+-+93400&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=25&surface%5BmaxSurface%5D=&type=rental&from=filter
   exclude: nos-annonces
