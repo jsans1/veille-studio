@@ -32,7 +32,7 @@ UA = (
 )
 DEFAULT_PATTERN = r"\d{4,}"  # la plupart des annonces ont un identifiant numérique
 GLOBAL_EXCLUDE = r"(^tel:|^mailto:|^javascript:|[?&]page=|/page/\d|/agences?/?$|/agence-immobiliere/[^/]+/?$|/contact|/estimation|/actus?/|/blog|/conseils?)"
-TRACKING_PARAMS = re.compile(r"^(utm_|fbclid|gclid|xtor|at_|_ga)", re.I)
+TRACKING_PARAMS = re.compile(r"^(utm_|fbclid|gclid|xtor|at_|_ga|search_id$|offset$|phpsessid$|oscsid$|sid$)", re.I)
 MAX_NOTIFS_PER_SITE = 8  # au-delà : probablement un changement de mise en page
 FAIL_ALERT_AFTER = 3
 
@@ -78,6 +78,8 @@ def extract_listings(html: str, base_url: str, pattern: str, exclude: str | None
     soup = BeautifulSoup(html, "html.parser")
     base_host = urlparse(base_url).netloc.lower().removeprefix("www.")
     page_self = normalize(base_url, keep_query)
+    base_tag = soup.find("base", href=True)
+    link_base = urljoin(base_url, base_tag["href"]) if base_tag else base_url
     rx = re.compile(pattern)
     rx_ex = re.compile(exclude) if exclude else None
     rx_global = re.compile(GLOBAL_EXCLUDE, re.I)
@@ -86,7 +88,7 @@ def extract_listings(html: str, base_url: str, pattern: str, exclude: str | None
         href = a.get("href", "").strip()
         if not href or href.startswith("#") or rx_global.search(href):
             return None
-        absolute = urljoin(base_url, href)
+        absolute = urljoin(link_base, href)
         p = urlparse(absolute)
         if p.scheme not in ("http", "https"):
             return None
