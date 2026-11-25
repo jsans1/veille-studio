@@ -6,8 +6,7 @@ Vérifie toutes les 20 minutes (lundi-samedi, 7h-20h40) une cinquantaine de page
 
 ### 1. Téléphone : ntfy
 1. Installe l'appli **ntfy** (App Store ou Google Play, gratuite, sans compte).
-2. Appuie sur **+** et abonne-toi au sujet : `veille-studio-369e20281afb`
-   Garde ce nom pour toi : quiconque le connaît peut lire tes notifications.
+2. Appuie sur **+** et abonne-toi à ton sujet (le même nom que le secret `NTFY_TOPIC`).
 
 ### 2. GitHub : le dépôt
 1. Sur github.com, crée un nouveau dépôt nommé `veille-studio`, en **Public** (en privé, les minutes gratuites ne suffisent pas pour tourner toutes les 20 minutes).
@@ -16,7 +15,7 @@ Vérifie toutes les 20 minutes (lundi-samedi, 7h-20h40) une cinquantaine de page
 
 ### 3. GitHub : le secret
 1. Dans le dépôt : **Settings > Secrets and variables > Actions > New repository secret**.
-2. Name : `NTFY_TOPIC`. Secret : `veille-studio-369e20281afb`.
+2. Name : `NTFY_TOPIC`. Secret : le nom de ton sujet ntfy.
 
 ### 4. Premiers lancements (onglet Actions)
 1. Ouvre l'onglet **Actions**. Si GitHub demande d'activer les workflows, accepte.

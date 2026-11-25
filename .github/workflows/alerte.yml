@@ -1,0 +1,27 @@
+name: Alerte
+
+# Envoie sur ntfy le contenu de alerts/message.txt chaque fois que ce fichier est modifié.
+# Utilisé par la tâche de surveillance de Claude, qui ne peut pas joindre ntfy directement.
+on:
+  push:
+    paths:
+      - alerts/message.txt
+
+jobs:
+  alerte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Envoyer la notification
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          msg = open("alerts/message.txt", encoding="utf-8").read().strip()
+          if msg:
+              body = json.dumps({"topic": os.environ["NTFY_TOPIC"], "title": "Veille studio : maintenance",
+                                 "message": msg[:3500], "tags": ["wrench"], "priority": 3}).encode()
+              req = urllib.request.Request("https://ntfy.sh", data=body, headers={"Content-Type": "application/json"})
+              urllib.request.urlopen(req, timeout=15)
+          PY
