@@ -2,9 +2,9 @@ name: Veille studio
 
 on:
   schedule:
-    # Heures en UTC. 6h-19h UTC = 7h-20h40 à Paris en hiver (8h-21h40 en été).
-    # Toutes les 20 min, du lundi au samedi.
-    - cron: "*/20 6-19 * * 1-6"
+    # Heures en UTC, plage large pour couvrir l'heure d'hiver et d'été.
+    # Le script ignore lui-même tout passage hors lun-sam 7h-21h heure de Paris.
+    - cron: "*/20 5-20 * * 1-6"
   workflow_dispatch:
     inputs:
       mode:

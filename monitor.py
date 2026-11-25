@@ -200,7 +200,21 @@ class Fetcher:
 
 # ---------------------------------------------------------------- programme
 
+def hors_horaires() -> bool:
+    """Vrai si on est en dehors de lun-sam 7h-21h, heure de Paris."""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    now = datetime.now(ZoneInfo("Europe/Paris"))
+    return now.weekday() == 6 or not (7 <= now.hour < 21)
+
+
 def run() -> int:
+    # GitHub lance parfois les tâches programmées avec des heures de retard :
+    # on ne vérifie (et ne notifie) que pendant les horaires voulus.
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and hors_horaires():
+        print("Hors horaires (lun-sam 7h-21h, Paris) : passage ignoré.")
+        return 0
+
     if os.environ.get("TEST_NOTIF") == "1":
         notify("Test veille studio", "Si tu lis ceci, les notifications marchent.",
                tags=["white_check_mark"])
