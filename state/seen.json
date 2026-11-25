@@ -5,7 +5,7 @@
   "SGL": 0
  },
  "fails": {
-  "Immona": 1
+  "Immona": 2
  },
  "seen": {
   "AVL Immobilier": [
@@ -144,6 +144,7 @@
   ],
   "Inli Pantin": [
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058686",
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-058703",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058757",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-271594",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-271752",
