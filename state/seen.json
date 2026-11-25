@@ -1,7 +1,7 @@
 {
  "counts": {
   "Agence du Faubourg": 0,
-  "Manda": 0,
+  "Manda": 1,
   "SGL": 0
  },
  "fails": {},
@@ -93,6 +93,7 @@
    "https://www.bienici.com/annonce/location/saint-denis/appartement/5pieces/ag603630-514172303"
   ],
   "Bienici Saint-Ouen": [
+   "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/ag752861-506964821",
    "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/ag752861-507991829",
    "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/hektor-fadeuxi11-74"
   ],
@@ -212,14 +213,18 @@
    "https://www.laforet.com/agence-immobiliere/saint-ouen/louer/saint-ouen/appartement-2-pieces-53038772"
   ],
   "Manda": [],
-  "Moriss Immobilier": [],
+  "Moriss Immobilier": [
+   "https://www.morissimmobilier.com/biens/vincennes-location-non-meublee-studio-de-22-m2"
+  ],
   "Oralia": [],
   "Orpi": [
    "https://www.orpi.com/annonce-location-appartement-t2-paris-15-75015-49883c44-1ea1-4d69-a516-2f0cc5ae34b9",
    "https://www.orpi.com/annonce-location-appartement-t3-paris-15-75015-7b79ad23-1234-4cdf-970e-052bd5e19e29",
    "https://www.orpi.com/annonce-location-stationnement-pantin-93500-d3397773-c015-4016-b2ae-9fbce0a1f14f"
   ],
-  "Parisloc": [],
+  "Parisloc": [
+   "https://www.parisloc.com/cgi-bin/photo/photo_cached.php?file_date=1795432339&h=2000&q=85&src=..%2F..%2Fphotos%2F96%2F9721%2F96-9721-photo_fiche.jpg&w=2000"
+  ],
   "Procivis": [],
   "Real 31 Clichy": [],
   "SGL": [],
