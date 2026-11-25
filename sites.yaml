@@ -151,7 +151,7 @@ sites:
 - name: Parisloc
   url: https://www.parisloc.com/pl_liste.pl?ACTION=CONSULTER&FROM=ACCUEIL&PAR_PAGE=10&localisation=&TYPE_BIEN=appartement&PRIX_MIN=&PRIX_MAX=850&SURFACE_MIN=22&SURFACE_MAX=&submit=Rechercher
   mode: http
-  pattern: pl_fiche|fiche|detail
+  pattern: pl_liste\.pl\?.*NUM=
   keep_query: true
 - name: Century 21 Wilson
   url: https://www.century21-wilson-st-ouen.com/annonces/location/
