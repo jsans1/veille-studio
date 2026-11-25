@@ -1,6 +1,35 @@
 {
- "fails": {},
+ "counts": {
+  "Agence du Faubourg": 0,
+  "Manda": 0,
+  "SGL": 0
+ },
+ "fails": {
+  "Immona": 1
+ },
  "seen": {
+  "AVL Immobilier": [
+   "https://www.avl-immobilier.com/annonces/fiches/3-32-34_12531157/aubervilliers-porte-de-la-villette-studio-657-00-euros-28m2-chauffage-et-eau-chaude-collectif.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-32-34_45981869/le-pre-saint-gervais-beau-studio-23-37-m2-780-00-euros-calme-et-tres-lumineux.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-32-34_47801002/pantin-appartement-f1-24-m2-750-00-euros-calme-sur-cour.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-32-34_9106836/paris-19-studio-908-00-euros-30m2-cave-balcon.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-32-35_31387715/paris-19-2-pieces-35-m2-1162-00-euros-cc-vue-sacre-coeur-lumineux.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-32-35_47990057/paris-19-2-pieces-41-m2-1135-00-euros-cc-location-meublee-chauffage-et-eau-chaude-collectifs.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-33-27_60640928/fiches.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-33-28_51697362/paris-xx-deux-pieces.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-33-30_60388864/fiches.html",
+   "https://www.avl-immobilier.com/annonces/fiches/3-33-31_61677067/fiches.html"
+  ],
+  "Agence La Garenne": [
+   "https://www.agence-la-garenne.com/location/1-clichy/studio/178-studio-au-calme-sur-cour",
+   "https://www.agence-la-garenne.com/location/1-clichy/studio/228-studio-refait-a-neuf-proche-metro-13-et-ligne-l",
+   "https://www.agence-la-garenne.com/location/1-clichy/studio/277-studio-meuble-renove-avec-vue-sur-le-parc-bic-clichy"
+  ],
+  "Agence du Faubourg": [],
+  "Agences 19": [
+   "https://agences19.fr/bien/paris-19-appartement-2-pieces-de-45-43m%c2%b2-loue-meuble",
+   "https://agences19.fr/bien/paris-19-appartement-2-pieces-loue-meuble"
+  ],
   "Bienici Aubervilliers": [
    "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/ag755239-352352181",
    "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/ladresse-1-adresse-12319113",
@@ -19,6 +48,7 @@
    "https://www.bienici.com/annonce/location/pantin/appartement/1piece/dauchez-32750",
    "https://www.bienici.com/annonce/location/pantin/appartement/1piece/hektor-cmb-7852"
   ],
+  "Bienici Paris 10": [],
   "Bienici Paris 17": [
    "https://www.bienici.com/annonce/location/paris-17e/appartement/1piece/ag750940-561575675",
    "https://www.bienici.com/annonce/location/paris-17e/appartement/1piece/ag752969-559555244",
@@ -34,6 +64,11 @@
    "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/guy-hoquet-immo-facile-7832575",
    "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/immo-facile-34107431"
   ],
+  "Bienici Paris 19": [
+   "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/ag752345-558420389",
+   "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/ag755239-554417483"
+  ],
+  "Bienici Paris 9": [],
   "Bienici Saint-Denis": [
    "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ag752352-560551229",
    "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ag754025-547724330",
@@ -62,11 +97,15 @@
   "Citya Pantin": [],
   "Citya Saint-Denis": [],
   "Citya Saint-Ouen": [],
+  "Clichy Immobilier": [],
   "ERA": [
    "https://www.eraimmobilier.com/annonces/576257"
   ],
+  "Ernest et Associes": [],
+  "Espace Carrez": [],
   "FA2I": [
-   "https://www.fa2i.fr/fiches/3-32-35_61751553/location-meublee-2-pieces-sainte-denis.html?offset=&search_id=1882757426920867"
+   "https://www.fa2i.fr/fiches/3-32-35_61751553/location-meublee-2-pieces-sainte-denis.html?offset=&search_id=1882757426920867",
+   "https://www.fa2i.fr/fiches/3-32-35_61751553/location-meublee-2-pieces-sainte-denis.html?offset=&search_id=1882789636819636"
   ],
   "Guy Hoquet": [
    "https://www.guy-hoquet.com/location/appartement-1-piece-paris-75018-1473590",
@@ -79,6 +118,9 @@
    "https://www.ibi-immobilier.fr/location/468-drancy/appartement/3417-studio-t1-21-25-m-drancy",
    "https://www.ibi-immobilier.fr/location/61-sarcelles/appartement/3451-appartement-t3-69-09-m-sarcelles",
    "https://www.ibi-immobilier.fr/location/7-stains/duplex/3414-duplex-avec-terrasse-t4-91-2-m-stains-93240"
+  ],
+  "Immotop": [
+   "https://www.immotop.fr/annonces/appart-3-pieces-terrasse-parking-hyper-centre"
   ],
   "Inli Aubervilliers": [
    "https://www.inli.fr/location-appartement-aubervilliers-93300/PRV-385141",
@@ -93,6 +135,7 @@
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058686",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058757",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-271594",
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-271752",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-309418"
   ],
   "Inli Paris": [
@@ -116,13 +159,46 @@
    "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1235L",
    "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1301L"
   ],
+  "L'Adresse": [
+   "https://www.ladresse.com/annonce/location/appartement/aubervilliers-93300/12319113",
+   "https://www.ladresse.com/annonce/location/appartement/aubervilliers-93300/12792120",
+   "https://www.ladresse.com/annonce/location/appartement/aubervilliers-93300/14703460"
+  ],
+  "Laforet Clichy": [
+   "https://www.laforet.com/agence-immobiliere/clichy/louer/clichy/appartement-1-piece-53030787"
+  ],
+  "Laforet Paris 17": [
+   "https://www.laforet.com/agence-immobiliere/courbevoie/louer/paris-17/appartement-5-pieces-53035692",
+   "https://www.laforet.com/agence-immobiliere/neuillysurseine/louer/paris-17/appartement-2-pieces-52835618",
+   "https://www.laforet.com/agence-immobiliere/paris17batignolles/louer/paris-17/appartement-2-pieces-17960576",
+   "https://www.laforet.com/agence-immobiliere/paris17levis/louer/paris-17/appartement-2-pieces-16884984",
+   "https://www.laforet.com/agence-immobiliere/paris17levis/louer/paris-17/appartement-2-pieces-53039043"
+  ],
+  "Laforet Paris 18": [
+   "https://www.laforet.com/agence-immobiliere/paris18clignancourt/louer/paris-18/appartement-2-pieces-53019049",
+   "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/louer/paris-18/appartement-2-pieces-53032076",
+   "https://www.laforet.com/agence-immobiliere/paris18marxdormoy/louer/paris-18/appartement-2-pieces-21631214"
+  ],
+  "Laforet Saint-Denis": [],
+  "Laforet Saint-Ouen": [
+   "https://www.laforet.com/agence-immobiliere/saint-ouen/louer/saint-ouen/appartement-2-pieces-53038772"
+  ],
+  "Manda": [],
+  "Moriss Immobilier": [],
   "Oralia": [],
   "Orpi": [
+   "https://www.orpi.com/annonce-location-appartement-t2-paris-15-75015-49883c44-1ea1-4d69-a516-2f0cc5ae34b9",
    "https://www.orpi.com/annonce-location-appartement-t3-paris-15-75015-7b79ad23-1234-4cdf-970e-052bd5e19e29",
    "https://www.orpi.com/annonce-location-stationnement-pantin-93500-d3397773-c015-4016-b2ae-9fbce0a1f14f"
   ],
   "Parisloc": [],
   "Procivis": [],
+  "Real 31 Clichy": [],
+  "SGL": [],
+  "Sabimmo": [
+   "https://www.sabimmo.fr/fiches/3-32-35_51448640/appartement-st-denis-2-piece-s-54-80m2.html"
+  ],
+  "Saint-Denis Immobilier": [],
   "Sergic": []
  }
 }
