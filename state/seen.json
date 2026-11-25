@@ -4,7 +4,10 @@
   "Manda": 0,
   "SGL": 0
  },
- "fails": {},
+ "fails": {
+  "CDC Habitat 93": 1,
+  "Ernest et Associes": 1
+ },
  "seen": {
   "AVL Immobilier": [
    "https://www.avl-immobilier.com/annonces/fiches/3-32-34_12531157/aubervilliers-porte-de-la-villette-studio-657-00-euros-28m2-chauffage-et-eau-chaude-collectif.html",
@@ -52,6 +55,9 @@
    "https://www.bienici.com/annonce/location/clichy/appartement/3pieces/guy-hoquet-immo-facile-6417691",
    "https://www.bienici.com/annonce/location/clichy/appartement/4pieces/nockee-prop_ad_032wYCRh0iSNh7GOHyRQH2"
   ],
+  "Bienici Kremlin-Bicetre": [
+   "https://www.bienici.com/annonce/location/le-kremlin-bicetre/appartement/1piece/century-21-202_2281_30900"
+  ],
   "Bienici Pantin": [
    "https://www.bienici.com/annonce/location/pantin/appartement/1piece/dauchez-32750",
    "https://www.bienici.com/annonce/location/pantin/appartement/1piece/hektor-cmb-7852"
@@ -92,6 +98,9 @@
   "Bienici Saint-Ouen": [
    "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/ag752861-507991829",
    "https://www.bienici.com/annonce/location/saint-ouen/appartement/1piece/hektor-fadeuxi11-74"
+  ],
+  "Bienici Villejuif": [
+   "https://www.bienici.com/annonce/location/villejuif/appartement/1piece/hektor-immoscope-520"
   ],
   "CDC Habitat 93": [
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/861549",
@@ -140,6 +149,7 @@
    "https://www.inli.fr/location-appartement-clichy-92110/PRV-277661",
    "https://www.inli.fr/location-appartement-clichy-92110/PRV-277676"
   ],
+  "Inli Kremlin-Bicetre": [],
   "Inli Pantin": [
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058686",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058703",
@@ -168,6 +178,11 @@
    "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1225L",
    "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1235L",
    "https://www.inli.fr/location-appartement-st-ouen-sur-seine-93400/x3F-0718-1301L"
+  ],
+  "Inli Villejuif": [
+   "https://www.inli.fr/location-appartement-villejuif-94800/654-20081-10006",
+   "https://www.inli.fr/location-appartement-villejuif-94800/654-20081-10025",
+   "https://www.inli.fr/location-appartement-villejuif-94800/PRV-309574"
   ],
   "L'Adresse": [
    "https://www.ladresse.com/annonce/location/appartement/aubervilliers-93300/12319113",
