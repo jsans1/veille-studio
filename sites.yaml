@@ -149,7 +149,7 @@ sites:
   url: https://www.sergic.com/rechercher-un-bien/?type=location&budget=0-850&city=Saint-Ouen-sur-Seine
   exclude: rechercher-un-bien
 - name: Parisloc
-  url: https://www.parisloc.com/pl_liste.pl?ACTION=CONSULTER&FROM=ACCUEIL&PAR_PAGE=10&localisation=&TYPE_BIEN=appartement&PRIX_MIN=&PRIX_MAX=850&SURFACE_MIN=25&SURFACE_MAX=&submit=Rechercher
+  url: https://www.parisloc.com/pl_liste.pl?ACTION=CONSULTER&FROM=ACCUEIL&PAR_PAGE=10&localisation=&TYPE_BIEN=appartement&PRIX_MIN=&PRIX_MAX=850&SURFACE_MIN=22&SURFACE_MAX=&submit=Rechercher
   mode: http
   pattern: pl_fiche|fiche|detail
   keep_query: true
