@@ -162,21 +162,27 @@ sites:
 - name: Inli Saint-Ouen
   url: https://www.inli.fr/locations/offres/saint-ouen-sur-seine-93400_v:93400/
   pattern: /location-(appartement|maison)-
+  max_price: 750
 - name: Inli Clichy
   url: https://www.inli.fr/locations/offres/clichy-92110_v:92110/
   pattern: /location-(appartement|maison)-
+  max_price: 750
 - name: Inli Aubervilliers
   url: https://www.inli.fr/locations/offres/aubervilliers-93300_v:93300/
   pattern: /location-(appartement|maison)-
+  max_price: 750
 - name: Inli Saint-Denis
   url: https://www.inli.fr/locations/offres/saint-denis-93200_v:93200/
   pattern: /location-(appartement|maison)-
+  max_price: 750
 - name: Inli Pantin
   url: https://www.inli.fr/locations/offres/pantin-93500_v:93500/
   pattern: /location-(appartement|maison)-
+  max_price: 750
 - name: Inli Paris
   url: https://www.inli.fr/locations/offres/paris_d:75/
   pattern: /location-(appartement|maison)-
+  max_price: 750
 - name: CDC Habitat 93
   url: https://www.cdc-habitat.fr/Recherche/show/lbLieu=Seine-Saint-Denis%3B&nbLoyerMax=850&cdTypage=Location&
   exclude: /Recherche/

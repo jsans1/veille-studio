@@ -72,6 +72,11 @@ def _summarize(text: str) -> str:
     return t[:140]
 
 
+def price_of(summary: str):
+    mt = re.search(r"(\d{1,2}[ .]?\d{3}|\d{3})(?:[.,]\d{1,2})? €", summary or "")
+    return float(re.sub(r"[ .]", "", mt.group(1))) if mt else None
+
+
 def extract_listings(html: str, base_url: str, pattern: str, exclude: str | None,
                      keep_query: bool) -> list[tuple[str, str]]:
     """Renvoie [(lien, résumé)] pour chaque lien d'annonce de la page."""
@@ -294,6 +299,14 @@ def run() -> int:
                 print(f"{key}: rien de nouveau")
                 continue
 
+            max_price = site.get("max_price")
+            if max_price:
+                kept = [l for l in new if (price_of(summaries.get(l)) or 0) <= max_price]
+                if len(kept) < len(new):
+                    print(f"{key}: {len(new) - len(kept)} annonce(s) ignorée(s) au-dessus de {max_price} €")
+                new = kept
+                if not new:
+                    continue
             print(f"{key}: {len(new)} nouvelle(s) annonce(s)")
             if len(new) > MAX_NOTIFS_PER_SITE:
                 notify(f"{key} : {len(new)} nouveaux liens",
