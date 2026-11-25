@@ -4,10 +4,7 @@
   "Manda": 0,
   "SGL": 0
  },
- "fails": {
-  "CDC Habitat 93": 1,
-  "Ernest et Associes": 1
- },
+ "fails": {},
  "seen": {
   "AVL Immobilier": [
    "https://www.avl-immobilier.com/annonces/fiches/3-32-34_12531157/aubervilliers-porte-de-la-villette-studio-657-00-euros-28m2-chauffage-et-eau-chaude-collectif.html",
@@ -160,9 +157,11 @@
   ],
   "Inli Paris": [
    "https://www.inli.fr/location-appartement-paris-18eme-75018/441-3122-9835",
+   "https://www.inli.fr/location-appartement-paris-75010/441-2425-3298",
    "https://www.inli.fr/location-appartement-paris-75011/PRV-252778",
    "https://www.inli.fr/location-appartement-paris-75012/PRV-217514",
    "https://www.inli.fr/location-appartement-paris-75012/PRV-217541",
+   "https://www.inli.fr/location-appartement-paris-75013/PRV-217798",
    "https://www.inli.fr/location-appartement-paris-75013/PRV-314458",
    "https://www.inli.fr/location-appartement-paris-75018/PRV-379602",
    "https://www.inli.fr/location-appartement-paris-75019/PRV-276284",
@@ -182,6 +181,7 @@
   "Inli Villejuif": [
    "https://www.inli.fr/location-appartement-villejuif-94800/654-20081-10006",
    "https://www.inli.fr/location-appartement-villejuif-94800/654-20081-10025",
+   "https://www.inli.fr/location-appartement-villejuif-94800/PRV-309564",
    "https://www.inli.fr/location-appartement-villejuif-94800/PRV-309574"
   ],
   "L'Adresse": [
