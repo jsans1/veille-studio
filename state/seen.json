@@ -4,10 +4,7 @@
   "Manda": 1,
   "SGL": 0
  },
- "fails": {
-  "CDC Habitat 93": 2,
-  "Ernest et Associes": 1
- },
+ "fails": {},
  "seen": {
   "AVL Immobilier": [
    "https://www.avl-immobilier.com/annonces/fiches/3-32-34_12531157/aubervilliers-porte-de-la-villette-studio-657-00-euros-28m2-chauffage-et-eau-chaude-collectif.html",
@@ -23,6 +20,7 @@
    "https://www.avl-immobilier.com/fiches/3-32-34_12531157/aubervilliers-porte-de-la-villette-studio-657-00-euros-28m2-chauffage-et-eau-chaude-collectif.html",
    "https://www.avl-immobilier.com/fiches/3-32-34_45981869/le-pre-saint-gervais-beau-studio-23-37-m2-780-00-euros-calme-et-tres-lumineux.html",
    "https://www.avl-immobilier.com/fiches/3-32-34_47801002/pantin-appartement-f1-24-m2-750-00-euros-calme-sur-cour.html",
+   "https://www.avl-immobilier.com/fiches/3-32-34_48741812/chatillon-studio-19-m2-780-euros-cc-bail-meuble-etudiant-metro-chatillon-montrouge.html",
    "https://www.avl-immobilier.com/fiches/3-32-34_9106836/paris-19-studio-908-00-euros-30m2-cave-balcon.html",
    "https://www.avl-immobilier.com/fiches/3-32-35_31387715/paris-19-2-pieces-35-m2-1162-00-euros-cc-vue-sacre-coeur-lumineux.html",
    "https://www.avl-immobilier.com/fiches/3-32-35_47990057/paris-19-2-pieces-41-m2-1135-00-euros-cc-location-meublee-chauffage-et-eau-chaude-collectifs.html",
@@ -259,6 +257,7 @@
    "https://www.orpi.com/annonce-location-appartement-t2-paris-15-75015-149e6b13-c68d-45bb-8d7d-98234908156f",
    "https://www.orpi.com/annonce-location-appartement-t2-paris-15-75015-49883c44-1ea1-4d69-a516-2f0cc5ae34b9",
    "https://www.orpi.com/annonce-location-appartement-t3-paris-15-75015-7b79ad23-1234-4cdf-970e-052bd5e19e29",
+   "https://www.orpi.com/annonce-location-appartement-t5-paris-15-75015-8aff0e02-9066-453d-bc94-c06d41e747cc",
    "https://www.orpi.com/annonce-location-stationnement-pantin-93500-d3397773-c015-4016-b2ae-9fbce0a1f14f",
    "https://www.orpi.com/annonce-location-stationnement-paris-12-75012-9003f0d3-1470-43e7-8f95-b431b3b8debd",
    "https://www.orpi.com/annonce-location-stationnement-paris-14-75014-95b3b234-5a34-4815-a906-10cfd3d03cb4"
