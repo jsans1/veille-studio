@@ -196,6 +196,18 @@ sites:
 - name: Century 21
   url: https://www.century21.fr/annonces/f/location-maison-appartement/v-asnieres+sur+seine-aubervilliers-clichy-gennevilliers-pantin-paris/cpv-93210_st+denis-93400_st+ouen/s-22-/st-0-/b-0-850/
   pattern: /trouver_logement/detail/
+- name: JDP Paris
+  url: https://www.journaldesparticuliers.com/immobilier/location-appartement-a-paris-75-de-700-a-1000-euros-de-25-a-50-m2-g439
+  pattern: pap\.fr/annonces/appartement-paris-(9e|10e|17e|18e|19e)-r\d
+  max_price: 850
+- name: JDP 93
+  url: https://www.journaldesparticuliers.com/immobilier/location-appartement-a-seine-saint-denis-93-de-700-a-1000-euros-de-25-a-50-m2-g457
+  pattern: pap\.fr/annonces/appartement-(saint-ouen|aubervilliers|saint-denis|pantin)-[^/]*r\d
+  max_price: 850
+- name: JDP 92
+  url: https://www.journaldesparticuliers.com/immobilier/location-appartement-a-hauts-de-seine-92-de-700-a-1000-euros-de-25-a-50-m2-g456
+  pattern: pap\.fr/annonces/appartement-(clichy|asnieres-sur-seine|gennevilliers)-[^/]*r\d
+  max_price: 850
 - name: Sergic
   url: https://www.sergic.com/rechercher-un-bien/?type=location&budget=0-850&city=Saint-Ouen-sur-Seine
   exclude: rechercher-un-bien
