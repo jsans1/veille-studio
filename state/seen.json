@@ -5,17 +5,18 @@
   "SGL": 0
  },
  "fails": {
-  "Citya Asnieres": 2,
-  "Citya Aubervilliers": 2,
-  "Citya Clichy": 2,
-  "Citya Gennevilliers": 2,
-  "Citya Pantin": 2,
-  "Citya Saint-Denis": 2,
-  "Citya Saint-Ouen": 2,
+  "Citya Asnieres": 3,
+  "Citya Aubervilliers": 3,
+  "Citya Clichy": 3,
+  "Citya Gennevilliers": 3,
+  "Citya Pantin": 3,
+  "Citya Saint-Denis": 3,
+  "Citya Saint-Ouen": 3,
+  "Ernest et Associes": 1,
   "Figaro Immobilier": 3,
-  "JDP 92": 5,
-  "JDP 93": 5,
-  "JDP Paris": 5
+  "JDP 92": 6,
+  "JDP 93": 6,
+  "JDP Paris": 6
  },
  "seen": {
   "AVL Immobilier": [
@@ -95,7 +96,8 @@
    "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/apimo-87632153",
    "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/guy-hoquet-immo-facile-6102760",
    "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/guy-hoquet-immo-facile-7832575",
-   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/immo-facile-34107431"
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/1piece/immo-facile-34107431",
+   "https://www.bienici.com/annonce/location/paris-18e/appartement/5pieces/ag754025-562938464"
   ],
   "Bienici Paris 19": [
    "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/ag752345-558420389",
@@ -312,13 +314,23 @@
    "https://oralia.fr/location/nos-biens-a-louer/ile-de-france/seine-saint-denis-93/la-courneuve-93120/appartement-la-courneuve-93120-nic16880008-933"
   ],
   "Orpi": [
+   "https://www.orpi.com/annonce-location-appartement-t1-argenteuil-95100-0d59e09d-18c0-4948-b7b3-0b4fd52671b9",
+   "https://www.orpi.com/annonce-location-appartement-t1-les-lilas-93260-181f26d6-5360-4e1e-b39b-4491b8bfdd8a",
+   "https://www.orpi.com/annonce-location-appartement-t1-paris-11-75011-1aafdef3-a765-4305-ae46-dd37bccbbf10",
    "https://www.orpi.com/annonce-location-appartement-t1-paris-15-75015-ae367070-e9a2-48d1-bb60-3a2a6db56900",
+   "https://www.orpi.com/annonce-location-appartement-t1-paris-19-75019-aae45965-2194-4b4c-9745-38a7aa03d6db",
    "https://www.orpi.com/annonce-location-appartement-t1-paris-7-75007-fc6aa46a-689a-475e-b328-531e75f43b0d",
+   "https://www.orpi.com/annonce-location-appartement-t2-la-courneuve-93120-4b30afc9-e800-4eee-a3d8-8d8e3e090454",
+   "https://www.orpi.com/annonce-location-appartement-t2-la-courneuve-93120-9ca7489a-ae6d-4223-bf40-08fefe3ee162",
+   "https://www.orpi.com/annonce-location-appartement-t2-pantin-93500-26fedd0e-e25d-4c8d-aa6f-74820e8fe07b",
+   "https://www.orpi.com/annonce-location-appartement-t2-pantin-93500-be3b9352-f08d-4f27-886e-8d358bf84846",
    "https://www.orpi.com/annonce-location-appartement-t2-paris-14-75014-11176a61-6bd6-4bb0-8dc6-00c764367322",
    "https://www.orpi.com/annonce-location-appartement-t2-paris-15-75015-149e6b13-c68d-45bb-8d7d-98234908156f",
    "https://www.orpi.com/annonce-location-appartement-t2-paris-15-75015-49883c44-1ea1-4d69-a516-2f0cc5ae34b9",
    "https://www.orpi.com/annonce-location-appartement-t3-paris-15-75015-7b79ad23-1234-4cdf-970e-052bd5e19e29",
+   "https://www.orpi.com/annonce-location-appartement-t4-argenteuil-95100-7a0cc293-2572-4d16-9333-fecdccf9c9cd",
    "https://www.orpi.com/annonce-location-appartement-t5-paris-15-75015-8aff0e02-9066-453d-bc94-c06d41e747cc",
+   "https://www.orpi.com/annonce-location-maison-t2-la-courneuve-93120-c18ce742-dc1a-494f-8478-4e6934eeb264",
    "https://www.orpi.com/annonce-location-stationnement-pantin-93500-d3397773-c015-4016-b2ae-9fbce0a1f14f",
    "https://www.orpi.com/annonce-location-stationnement-paris-12-75012-9003f0d3-1470-43e7-8f95-b431b3b8debd",
    "https://www.orpi.com/annonce-location-stationnement-paris-14-75014-95b3b234-5a34-4815-a906-10cfd3d03cb4"
