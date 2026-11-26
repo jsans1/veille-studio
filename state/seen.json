@@ -5,10 +5,10 @@
   "SGL": 0
  },
  "fails": {
-  "Figaro Immobilier": 1,
-  "JDP 92": 2,
-  "JDP 93": 2,
-  "JDP Paris": 2
+  "Figaro Immobilier": 2,
+  "JDP 92": 3,
+  "JDP 93": 3,
+  "JDP Paris": 3
  },
  "seen": {
   "AVL Immobilier": [
@@ -346,7 +346,10 @@
    "https://www.paruvendu.fr/immobilier/location/appartement/1297873580A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297881801A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297883589A1KILHAP000",
-   "https://www.paruvendu.fr/immobilier/location/appartement/1297921681A1KILHAP000"
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297921681A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297931702A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297931723A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297931799A1KILHAP000"
   ],
   "Procivis": [],
   "Real 31 Clichy": [],
