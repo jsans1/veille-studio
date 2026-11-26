@@ -38,6 +38,11 @@
    "https://agences19.fr/bien/paris-19-appartement-2-pieces-de-45-43m%c2%b2-loue-meuble",
    "https://agences19.fr/bien/paris-19-appartement-2-pieces-loue-meuble"
   ],
+  "Bienici Asnieres": [
+   "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/1piece/ag210198-497513981",
+   "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/2pieces/ag921430-561165932",
+   "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/apimo-86418132"
+  ],
   "Bienici Aubervilliers": [
    "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/ag755239-352352181",
    "https://www.bienici.com/annonce/location/aubervilliers/appartement/1piece/ladresse-1-adresse-12319113",
@@ -51,6 +56,9 @@
    "https://www.bienici.com/annonce/location/clichy/appartement/2pieces/ag941973-562431314",
    "https://www.bienici.com/annonce/location/clichy/appartement/3pieces/guy-hoquet-immo-facile-6417691",
    "https://www.bienici.com/annonce/location/clichy/appartement/4pieces/nockee-prop_ad_032wYCRh0iSNh7GOHyRQH2"
+  ],
+  "Bienici Gennevilliers": [
+   "https://www.bienici.com/annonce/location/gennevilliers/appartement/1piece/immo-facile-59365596"
   ],
   "Bienici Kremlin-Bicetre": [
    "https://www.bienici.com/annonce/location/le-kremlin-bicetre/appartement/1piece/century-21-202_2281_30900",
@@ -108,8 +116,10 @@
   "Century 21 Wilson": [
    "https://www.century21-wilson-st-ouen.com/trouver_logement/detail/15665372289"
   ],
+  "Citya Asnieres": [],
   "Citya Aubervilliers": [],
   "Citya Clichy": [],
+  "Citya Gennevilliers": [],
   "Citya Pantin": [],
   "Citya Saint-Denis": [],
   "Citya Saint-Ouen": [],
@@ -139,6 +149,9 @@
   "Immotop": [
    "https://www.immotop.fr/annonces/appart-3-pieces-terrasse-parking-hyper-centre"
   ],
+  "Inli Asnieres": [
+   "https://www.inli.fr/location-appartement-asnieres-sur-seine-92600/PRV-312403"
+  ],
   "Inli Aubervilliers": [
    "https://www.inli.fr/location-appartement-aubervilliers-93300/PRV-385141",
    "https://www.inli.fr/location-appartement-aubervilliers-93300/x3F-0918-1122L",
@@ -151,6 +164,10 @@
    "https://www.inli.fr/location-appartement-clichy-92110/PRV-277684",
    "https://www.inli.fr/location-appartement-clichy-92110/PRV-349125",
    "https://www.inli.fr/location-appartement-clichy-92110/PRV-386080"
+  ],
+  "Inli Gennevilliers": [
+   "https://www.inli.fr/location-appartement-gennevilliers-92230/PRV-278384",
+   "https://www.inli.fr/location-appartement-gennevilliers-92230/PRV-328286"
   ],
   "Inli Kremlin-Bicetre": [],
   "Inli Pantin": [
@@ -199,9 +216,16 @@
    "https://www.ladresse.com/annonce/location/appartement/aubervilliers-93300/12792120",
    "https://www.ladresse.com/annonce/location/appartement/aubervilliers-93300/14703460"
   ],
+  "Laforet Asnieres": [
+   "https://www.laforet.com/agence-immobiliere/asnieres-sur-seine/louer/asnieres-sur-seine/appartement-3-pieces-53015712",
+   "https://www.laforet.com/agence-immobiliere/asnieres-sur-seine/louer/asnieres-sur-seine/appartement-3-pieces-53027774",
+   "https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/asnieres-sur-seine/appartement-2-pieces-53030745",
+   "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/louer/asnieres-sur-seine/appartement-2-pieces-53028881"
+  ],
   "Laforet Clichy": [
    "https://www.laforet.com/agence-immobiliere/clichy/louer/clichy/appartement-1-piece-53030787"
   ],
+  "Laforet Gennevilliers": [],
   "Laforet Paris 17": [
    "https://www.laforet.com/agence-immobiliere/courbevoie/louer/paris-17/appartement-5-pieces-53035692",
    "https://www.laforet.com/agence-immobiliere/neuillysurseine/louer/paris-17/appartement-2-pieces-52835618",
