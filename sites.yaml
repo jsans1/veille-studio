@@ -193,6 +193,9 @@ sites:
   url: https://www.century21lamiimmobilier.com/annonces/location/
   mode: http
   pattern: /trouver_logement/detail/|/detail/
+- name: Century 21
+  url: https://www.century21.fr/annonces/f/location-maison-appartement/v-asnieres+sur+seine-aubervilliers-gennevilliers-pantin/cpv-93210_st+denis-93400_st+ouen/s-22-/st-0-/b-0-850/
+  pattern: /trouver_logement/detail/
 - name: Sergic
   url: https://www.sergic.com/rechercher-un-bien/?type=location&budget=0-850&city=Saint-Ouen-sur-Seine
   exclude: rechercher-un-bien
