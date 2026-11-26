@@ -4,7 +4,9 @@
   "Manda": 1,
   "SGL": 0
  },
- "fails": {},
+ "fails": {
+  "Ernest et Associes": 1
+ },
  "seen": {
   "AVL Immobilier": [
    "https://www.avl-immobilier.com/annonces/fiches/3-32-34_12531157/aubervilliers-porte-de-la-villette-studio-657-00-euros-28m2-chauffage-et-eau-chaude-collectif.html",
@@ -244,6 +246,7 @@
    "https://www.laforet.com/agence-immobiliere/paris17levis/louer/paris-17/appartement-2-pieces-53039043"
   ],
   "Laforet Paris 18": [
+   "https://www.laforet.com/agence-immobiliere/paris18clignancourt/louer/paris-18/appartement-2-pieces-52992294",
    "https://www.laforet.com/agence-immobiliere/paris18clignancourt/louer/paris-18/appartement-2-pieces-53019049",
    "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/louer/paris-18/appartement-2-pieces-53032076",
    "https://www.laforet.com/agence-immobiliere/paris18marxdormoy/louer/paris-18/appartement-1-piece-53030814",
