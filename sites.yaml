@@ -212,10 +212,6 @@ sites:
   url: https://www.paruvendu.fr/immobilier/recherche/location/appartement/?rechpv=1&ddlTri=dateMiseAJour&ddlOrd=desc&ddlFiltres=nofilter&prestige=0&perimLat=48.85885&perimLng=2.347&lol=9&tt=5&tb=tbApp%7CtbDup%7CtbChb%7CtbLof%7CtbAtl%7CtbPla%7C&px1=850&sur0=22
   pattern: /immobilier/location/[a-z-]+/\d+A1K
   max_price: 850
-- name: Figaro Immobilier
-  url: https://immobilier.lefigaro.fr/annonces/immobilier-location-appartement-paris.html?types=appartement%2Bneuf,loft,chambre,duplex,maison,maison%2Bneuve,atelier,chalet,chambre%2Bd%2Bhote,manoir,moulin,propriete,ferme,gite,villa&sort=5&priceMax=850&areaMin=22&radius=10
-  pattern: /annonces/annonce-\d+\.html
-  max_price: 850
 - name: Sergic
   url: https://www.sergic.com/rechercher-un-bien/?type=location&budget=0-850&city=Saint-Ouen-sur-Seine
   exclude: rechercher-un-bien
