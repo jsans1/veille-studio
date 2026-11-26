@@ -70,7 +70,7 @@ sites:
 - name: Inli Asnieres
   url: https://www.inli.fr/locations/offres/asnieres-sur-seine-92600_v:92600/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Bienici Gennevilliers
   url: https://www.bienici.com/recherche/location/gennevilliers-92230/appartement?prix-max=850&surface-min=22&mode=liste
   pattern: /annonce/location/
@@ -83,7 +83,7 @@ sites:
 - name: Inli Gennevilliers
   url: https://www.inli.fr/locations/offres/gennevilliers-92230_v:92230/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Orpi
   url: https://www.orpi.com/recherche?transactions%5B0%5D=rent&resultUrl=&locations%5B0%5D%5Bvalue%5D=paris-metropole&locations%5B0%5D%5Blabel%5D=Paris%20-%20M%C3%A9tropole&locations%5B0%5D%5Blatitude%5D=48.8593&locations%5B0%5D%5Blongitude%5D=2.34694&locations%5B1%5D%5Bvalue%5D=saint-ouen&locations%5B1%5D%5Blabel%5D=Saint-Ouen%20%2893400%29%20-%20Ville&locations%5B1%5D%5Blatitude%5D=48.9114&locations%5B1%5D%5Blongitude%5D=2.3328&locations%5B2%5D%5Bvalue%5D=aubervilliers&locations%5B2%5D%5Blabel%5D=Aubervilliers%20%2893300%29%20-%20Ville&locations%5B2%5D%5Blatitude%5D=48.9133&locations%5B2%5D%5Blongitude%5D=2.38885&locations%5B3%5D%5Bvalue%5D=saint-denis-seine-saint-denis-la-plaine-saint-denis&locations%5B3%5D%5Blabel%5D=La%20Plaine%20Saint-Denis%20%2893210%29%20-%20Quartier&locations%5B3%5D%5Blatitude%5D=48.9124&locations%5B3%5D%5Blongitude%5D=2.35774&locations%5B4%5D%5Bvalue%5D=saint-denis-seine-saint-denis-pleyel&locations%5B4%5D%5Blabel%5D=Pleyel%20%2893200%29%20-%20Quartier&locations%5B4%5D%5Blatitude%5D=48.9216&locations%5B4%5D%5Blongitude%5D=2.34287&locations%5B5%5D%5Bvalue%5D=pantin&locations%5B5%5D%5Blabel%5D=Pantin%20%2893500%29%20-%20Ville&locations%5B5%5D%5Blatitude%5D=48.9009&locations%5B5%5D%5Blongitude%5D=2.40876&locations%5B6%5D%5Bvalue%5D=clichy&locations%5B6%5D%5Blabel%5D=Clichy%20%2892110%29%20-%20Ville&locations%5B6%5D%5Blatitude%5D=48.9043&locations%5B6%5D%5Blongitude%5D=2.30322&agency=&minSurface=22&maxSurface=&minLotSurface=&maxLotSurface=&minStoryLocation=&maxStoryLocation=&newBuild=&oldBuild=&lifeAnnuity=&minPrice=&maxPrice=850&sort=date-down&layoutType=list&page=1&recentlySold=false&searchRange=
   pattern: /annonce-location-
@@ -194,35 +194,35 @@ sites:
 - name: Inli Saint-Ouen
   url: https://www.inli.fr/locations/offres/saint-ouen-sur-seine-93400_v:93400/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Clichy
   url: https://www.inli.fr/locations/offres/clichy-92110_v:92110/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Aubervilliers
   url: https://www.inli.fr/locations/offres/aubervilliers-93300_v:93300/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Saint-Denis
   url: https://www.inli.fr/locations/offres/saint-denis-93200_v:93200/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Pantin
   url: https://www.inli.fr/locations/offres/pantin-93500_v:93500/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Paris
   url: https://www.inli.fr/locations/offres/paris_d:75/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Kremlin-Bicetre
   url: https://www.inli.fr/locations/offres/le-kremlin-bicetre-94270_v:94270/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: Inli Villejuif
   url: https://www.inli.fr/locations/offres/villejuif-94800_v:94800/
   pattern: /location-(appartement|maison)-
-  max_price: 756
+  max_price: 680
 - name: CDC Habitat 93
   url: https://www.cdc-habitat.fr/Recherche/show/lbLieu=Seine-Saint-Denis%3B&nbLoyerMax=850&cdTypage=Location&
   exclude: /Recherche/
