@@ -34,3 +34,6 @@ Tout est dans `sites.yaml` (bouton crayon sur GitHub pour l'éditer). Supprime u
 
 ## Arrêter
 Onglet **Actions > Veille studio > ... > Disable workflow**. Une fois le studio trouvé, tu peux aussi supprimer le dépôt.
+
+## Pages retirées
+- 2026-11-26 : JDP Paris (https://www.journaldesparticuliers.com/immobilier/location-appartement-a-paris-75-de-700-a-1000-euros-de-25-a-50-m2-g439), JDP 93 et JDP 92 (journaldesparticuliers.com) : aucune réussite depuis les serveurs GitHub (7 échecs consécutifs).
