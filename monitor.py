@@ -243,6 +243,11 @@ def run() -> int:
             url = site["url"]
             mode = site.get("mode", "browser")
             keep_query = site.get("keep_query", False)
+            every = int(site.get("every", 1))
+            if every > 1 and not DEBUG:
+                slot = int(time.time() // 1200)  # un créneau = 20 min
+                if (slot + sum(map(ord, key))) % every:
+                    continue  # site interrogé moins souvent (anti-blocage)
             try:
                 html = fetcher.http(url) if mode == "http" else fetcher.browser(url, site.get("wait", 4000))
                 listings = extract_listings(html, url, site.get("pattern", DEFAULT_PATTERN),

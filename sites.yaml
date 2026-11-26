@@ -67,6 +67,7 @@ sites:
 - name: Citya Asnieres
   url: https://www.citya.com/annonces/location/asnieres-sur-seine-92600?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/asnieres-sur-seine-92600/
+  every: 3
 - name: Inli Asnieres
   url: https://www.inli.fr/locations/offres/asnieres-sur-seine-92600_v:92600/
   pattern: /location-(appartement|maison)-
@@ -80,6 +81,7 @@ sites:
 - name: Citya Gennevilliers
   url: https://www.citya.com/annonces/location/gennevilliers-92230?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/gennevilliers-92230/
+  every: 3
 - name: Inli Gennevilliers
   url: https://www.inli.fr/locations/offres/gennevilliers-92230_v:92230/
   pattern: /location-(appartement|maison)-
@@ -100,18 +102,23 @@ sites:
 - name: Citya Saint-Ouen
   url: https://www.citya.com/annonces/location/saint-ouen-sur-seine-93400?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/saint-ouen-sur-seine-93400/
+  every: 3
 - name: Citya Clichy
   url: https://www.citya.com/annonces/location/clichy-92110?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/clichy-92110/
+  every: 3
 - name: Citya Saint-Denis
   url: https://www.citya.com/annonces/location/saint-denis-93200?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/saint-denis-932[01]0/
+  every: 3
 - name: Citya Aubervilliers
   url: https://www.citya.com/annonces/location/aubervilliers-93300?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/aubervilliers-93300/
+  every: 3
 - name: Citya Pantin
   url: https://www.citya.com/annonces/location/pantin-93500?prixMax=850&surfaceMin=22
   pattern: /annonces/location/[^/]+/pantin-93500/
+  every: 3
 - name: Moriss Immobilier
   url: https://www.morissimmobilier.com/louer-appartements/?type=Appartement&surface=22&nb-bedrooms=&budget=850
   pattern: /biens/
@@ -196,18 +203,6 @@ sites:
 - name: Century 21
   url: https://www.century21.fr/annonces/f/location-maison-appartement/v-asnieres+sur+seine-aubervilliers-clichy-gennevilliers-pantin-paris/cpv-93210_st+denis-93400_st+ouen/s-22-/st-0-/b-0-850/
   pattern: /trouver_logement/detail/
-- name: JDP Paris
-  url: https://www.journaldesparticuliers.com/immobilier/location-appartement-a-paris-75-de-700-a-1000-euros-de-25-a-50-m2-g439
-  pattern: pap\.fr/annonces/appartement-paris-(9e|10e|17e|18e|19e)-r\d
-  max_price: 850
-- name: JDP 93
-  url: https://www.journaldesparticuliers.com/immobilier/location-appartement-a-seine-saint-denis-93-de-700-a-1000-euros-de-25-a-50-m2-g457
-  pattern: pap\.fr/annonces/appartement-(saint-ouen|aubervilliers|saint-denis|pantin)-[^/]*r\d
-  max_price: 850
-- name: JDP 92
-  url: https://www.journaldesparticuliers.com/immobilier/location-appartement-a-hauts-de-seine-92-de-700-a-1000-euros-de-25-a-50-m2-g456
-  pattern: pap\.fr/annonces/appartement-(clichy|asnieres-sur-seine|gennevilliers)-[^/]*r\d
-  max_price: 850
 - name: ParuVendu
   url: https://www.paruvendu.fr/immobilier/recherche/location/appartement/?rechpv=1&ddlTri=dateMiseAJour&ddlOrd=desc&ddlFiltres=nofilter&prestige=0&perimLat=48.85885&perimLng=2.347&lol=9&tt=5&tb=tbApp%7CtbDup%7CtbChb%7CtbLof%7CtbAtl%7CtbPla%7C&px1=850&sur0=22
   pattern: /immobilier/location/[a-z-]+/\d+A1K
