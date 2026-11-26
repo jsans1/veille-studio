@@ -5,9 +5,10 @@
   "SGL": 0
  },
  "fails": {
-  "JDP 92": 1,
-  "JDP 93": 1,
-  "JDP Paris": 1
+  "Figaro Immobilier": 1,
+  "JDP 92": 2,
+  "JDP 93": 2,
+  "JDP Paris": 2
  },
  "seen": {
   "AVL Immobilier": [
@@ -318,6 +319,34 @@
   "Parisloc": [
    "https://www.parisloc.com/cgi-bin/photo/photo_cached.php?file_date=1795432339&h=2000&q=85&src=..%2F..%2Fphotos%2F96%2F9721%2F96-9721-photo_fiche.jpg&w=2000",
    "https://www.parisloc.com/pl_liste.pl?ACTION=DETAIL&NUM=9721"
+  ],
+  "ParuVendu": [
+   "https://www.paruvendu.fr/immobilier/location/appartement/1280455880A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1281153619A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1295890706A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296188641A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296218468A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296394827A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296484134A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296721383A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296903480A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1296968914A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297278465A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297367284A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297474331A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297509001A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297509062A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297586054A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297682138A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297796183A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297796184A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297873427A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297873567A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297873577A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297873580A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297881801A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297883589A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297921681A1KILHAP000"
   ],
   "Procivis": [],
   "Real 31 Clichy": [],
