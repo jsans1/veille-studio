@@ -8,9 +8,9 @@
   "Citya Asnieres": 2,
   "Citya Aubervilliers": 2,
   "Citya Clichy": 2,
-  "Citya Gennevilliers": 2,
+  "Citya Gennevilliers": 3,
   "Citya Pantin": 3,
-  "Citya Saint-Denis": 2,
+  "Citya Saint-Denis": 3,
   "Citya Saint-Ouen": 3,
   "Figaro Immobilier": 3
  },
@@ -193,6 +193,8 @@
    "https://www.inli.fr/location-appartement-asnieres-sur-seine-92600/PRV-321730"
   ],
   "Inli Aubervilliers": [
+   "https://www.inli.fr/location-appartement-aubervilliers-93300/PRV-241959",
+   "https://www.inli.fr/location-appartement-aubervilliers-93300/PRV-242141",
    "https://www.inli.fr/location-appartement-aubervilliers-93300/PRV-385141",
    "https://www.inli.fr/location-appartement-aubervilliers-93300/x3F-0918-1122L",
    "https://www.inli.fr/location-appartement-aubervilliers-93300/x3F-0918-2116L"
@@ -217,6 +219,7 @@
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058686",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058703",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-058757",
+   "https://www.inli.fr/location-appartement-pantin-93500/PRV-058818",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-271594",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-271752",
    "https://www.inli.fr/location-appartement-pantin-93500/PRV-309418"
@@ -229,6 +232,7 @@
    "https://www.inli.fr/location-appartement-paris-75012/PRV-217541",
    "https://www.inli.fr/location-appartement-paris-75013/PRV-217798",
    "https://www.inli.fr/location-appartement-paris-75013/PRV-314458",
+   "https://www.inli.fr/location-appartement-paris-75018/PRV-211011",
    "https://www.inli.fr/location-appartement-paris-75018/PRV-252252",
    "https://www.inli.fr/location-appartement-paris-75018/PRV-379602",
    "https://www.inli.fr/location-appartement-paris-75019/PRV-060720",
