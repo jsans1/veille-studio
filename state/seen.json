@@ -5,7 +5,9 @@
   "SGL": 0
  },
  "fails": {
-  "Ernest et Associes": 1
+  "JDP 92": 1,
+  "JDP 93": 1,
+  "JDP Paris": 1
  },
  "seen": {
   "AVL Immobilier": [
@@ -112,9 +114,34 @@
   "Bienici Villejuif": [
    "https://www.bienici.com/annonce/location/villejuif/appartement/1piece/hektor-immoscope-520"
   ],
+  "CDC Habitat 92": [
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/648916",
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/754003",
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/816940"
+  ],
   "CDC Habitat 93": [
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/861549",
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-et-marne/chelles/1175218"
+  ],
+  "Century 21": [
+   "https://www.century21.fr/trouver_logement/detail/15187517138",
+   "https://www.century21.fr/trouver_logement/detail/15665372289",
+   "https://www.century21.fr/trouver_logement/detail/16992235439",
+   "https://www.century21.fr/trouver_logement/detail/17025850102",
+   "https://www.century21.fr/trouver_logement/detail/17033768769",
+   "https://www.century21.fr/trouver_logement/detail/17055471250",
+   "https://www.century21.fr/trouver_logement/detail/17123912402",
+   "https://www.century21.fr/trouver_logement/detail/17144017127",
+   "https://www.century21.fr/trouver_logement/detail/17147859486",
+   "https://www.century21.fr/trouver_logement/detail/17152324015"
+  ],
+  "Century 21 Ami Asnieres": [
+   "https://www.century21lamiimmobilier.com/trouver_logement/detail/15847625646",
+   "https://www.century21lamiimmobilier.com/trouver_logement/detail/16643281218",
+   "https://www.century21lamiimmobilier.com/trouver_logement/detail/17129276998",
+   "https://www.century21lamiimmobilier.com/trouver_logement/detail/17132539176",
+   "https://www.century21lamiimmobilier.com/trouver_logement/detail/17164464093",
+   "https://www.century21lamiimmobilier.com/trouver_logement/detail/6728247888"
   ],
   "Century 21 Wilson": [
    "https://www.century21-wilson-st-ouen.com/trouver_logement/detail/15665372289"
@@ -263,6 +290,19 @@
    "https://www.morissimmobilier.com/biens/vincennes-location-non-meublee-studio-de-22-m2"
   ],
   "Oralia": [],
+  "Oralia Asnieres": [],
+  "Oralia Aubervilliers": [
+   "https://oralia.fr/location/nos-biens-a-louer/ile-de-france/seine-saint-denis-93/la-courneuve-93120/appartement-la-courneuve-93120-nic16880008-933"
+  ],
+  "Oralia Clichy": [],
+  "Oralia Gennevilliers": [],
+  "Oralia Paris": [
+   "https://oralia.fr/location/nos-biens-a-louer/bourgogne-franche-comte/doubs-25/l-isle-sur-le-doubs-25250/appartement-l-isle-sur-le-doubs-25250-lapp51902296",
+   "https://oralia.fr/location/nos-biens-a-louer/bourgogne-franche-comte/doubs-25/montbeliard-25200/appartement-montbeliard-25200-lapp51902270",
+   "https://oralia.fr/location/nos-biens-a-louer/bourgogne-franche-comte/doubs-25/sochaux-25600/appartement-sochaux-25600-lapp51902298",
+   "https://oralia.fr/location/nos-biens-a-louer/bourgogne-franche-comte/territoire-de-belfort-90/belfort-90000/appartement-belfort-90000-lapp51902295",
+   "https://oralia.fr/location/nos-biens-a-louer/ile-de-france/seine-saint-denis-93/la-courneuve-93120/appartement-la-courneuve-93120-nic16880008-933"
+  ],
   "Orpi": [
    "https://www.orpi.com/annonce-location-appartement-t1-paris-15-75015-ae367070-e9a2-48d1-bb60-3a2a6db56900",
    "https://www.orpi.com/annonce-location-appartement-t1-paris-7-75007-fc6aa46a-689a-475e-b328-531e75f43b0d",
