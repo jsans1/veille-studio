@@ -85,7 +85,7 @@ sites:
   pattern: /location-(appartement|maison)-
   max_price: 680
 - name: Orpi
-  url: https://www.orpi.com/recherche?transactions%5B0%5D=rent&resultUrl=&locations%5B0%5D%5Bvalue%5D=paris-metropole&locations%5B0%5D%5Blabel%5D=Paris%20-%20M%C3%A9tropole&locations%5B0%5D%5Blatitude%5D=48.8593&locations%5B0%5D%5Blongitude%5D=2.34694&locations%5B1%5D%5Bvalue%5D=saint-ouen&locations%5B1%5D%5Blabel%5D=Saint-Ouen%20%2893400%29%20-%20Ville&locations%5B1%5D%5Blatitude%5D=48.9114&locations%5B1%5D%5Blongitude%5D=2.3328&locations%5B2%5D%5Bvalue%5D=aubervilliers&locations%5B2%5D%5Blabel%5D=Aubervilliers%20%2893300%29%20-%20Ville&locations%5B2%5D%5Blatitude%5D=48.9133&locations%5B2%5D%5Blongitude%5D=2.38885&locations%5B3%5D%5Bvalue%5D=saint-denis-seine-saint-denis-la-plaine-saint-denis&locations%5B3%5D%5Blabel%5D=La%20Plaine%20Saint-Denis%20%2893210%29%20-%20Quartier&locations%5B3%5D%5Blatitude%5D=48.9124&locations%5B3%5D%5Blongitude%5D=2.35774&locations%5B4%5D%5Bvalue%5D=saint-denis-seine-saint-denis-pleyel&locations%5B4%5D%5Blabel%5D=Pleyel%20%2893200%29%20-%20Quartier&locations%5B4%5D%5Blatitude%5D=48.9216&locations%5B4%5D%5Blongitude%5D=2.34287&locations%5B5%5D%5Bvalue%5D=pantin&locations%5B5%5D%5Blabel%5D=Pantin%20%2893500%29%20-%20Ville&locations%5B5%5D%5Blatitude%5D=48.9009&locations%5B5%5D%5Blongitude%5D=2.40876&locations%5B6%5D%5Bvalue%5D=clichy&locations%5B6%5D%5Blabel%5D=Clichy%20%2892110%29%20-%20Ville&locations%5B6%5D%5Blatitude%5D=48.9043&locations%5B6%5D%5Blongitude%5D=2.30322&agency=&minSurface=22&maxSurface=&minLotSurface=&maxLotSurface=&minStoryLocation=&maxStoryLocation=&newBuild=&oldBuild=&lifeAnnuity=&minPrice=&maxPrice=850&sort=date-down&layoutType=list&page=1&recentlySold=false&searchRange=
+  url: https://www.orpi.com/recherche?transactions%5B0%5D=rent&resultUrl=&locations%5B0%5D%5Bvalue%5D=paris-metropole&locations%5B0%5D%5Blabel%5D=Paris&locations%5B0%5D%5Blatitude%5D=48.8593&locations%5B0%5D%5Blongitude%5D=2.34694&locations%5B1%5D%5Bvalue%5D=saint-ouen&locations%5B1%5D%5Blabel%5D=Saint-Ouen%20%2893400%29&locations%5B1%5D%5Blatitude%5D=48.9114&locations%5B1%5D%5Blongitude%5D=2.3328&locations%5B2%5D%5Bvalue%5D=aubervilliers&locations%5B2%5D%5Blabel%5D=Aubervilliers%20%2893300%29&locations%5B2%5D%5Blatitude%5D=48.9133&locations%5B2%5D%5Blongitude%5D=2.38885&locations%5B3%5D%5Bvalue%5D=saint-denis-seine-saint-denis-la-plaine-saint-denis&locations%5B3%5D%5Blabel%5D=La%20Plaine%20Saint-Denis%20%2893210%29&locations%5B3%5D%5Blatitude%5D=48.9124&locations%5B3%5D%5Blongitude%5D=2.35774&locations%5B4%5D%5Bvalue%5D=saint-denis-seine-saint-denis-pleyel&locations%5B4%5D%5Blabel%5D=Pleyel%20%2893200%29&locations%5B4%5D%5Blatitude%5D=48.9216&locations%5B4%5D%5Blongitude%5D=2.34287&locations%5B5%5D%5Bvalue%5D=pantin&locations%5B5%5D%5Blabel%5D=Pantin%20%2893500%29&locations%5B5%5D%5Blatitude%5D=48.9009&locations%5B5%5D%5Blongitude%5D=2.40876&locations%5B6%5D%5Bvalue%5D=clichy&locations%5B6%5D%5Blabel%5D=Clichy%20%2892110%29&locations%5B6%5D%5Blatitude%5D=48.9043&locations%5B6%5D%5Blongitude%5D=2.30322&locations%5B7%5D%5Bvalue%5D=asnieres-sur-seine&locations%5B7%5D%5Blabel%5D=Asni%C3%A8res-sur-Seine%20%2892600%29&locations%5B7%5D%5Blatitude%5D=48.9185&locations%5B7%5D%5Blongitude%5D=2.29286&locations%5B8%5D%5Bvalue%5D=gennevilliers&locations%5B8%5D%5Blabel%5D=Gennevilliers%20%2892230%29&locations%5B8%5D%5Blatitude%5D=48.9319&locations%5B8%5D%5Blongitude%5D=2.2877&agency=&minSurface=22&maxPrice=850&sort=date-down&layoutType=list&page=1&recentlySold=false
   pattern: /annonce-location-
 - name: Guy Hoquet
   url: https://www.guy-hoquet.com/biens/result#1&p=1&f10=2&f20=saint-ouen-sur-seine-93400_c3,clichy-92110_c3,paris-18e-75018_c3,paris-17e-75017_c3,aubervilliers-93300_c3,saint-denis-93200_c3,pantin-93500_c3,paris-9e-75009_c3,paris-10e-75010_c3,paris-19e-75019_c3,le-kremlin-bicetre-94270_c3,villejuif-94800_c3,asnieres-sur-seine-92600_c3,gennevilliers-92230_c3&f30=appartement&f40=850
@@ -171,6 +171,28 @@ sites:
 - name: Oralia
   url: https://oralia.fr/nos-annonces?locations=Saint-Ouen+-+93400&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
   exclude: nos-annonces
+- name: Oralia Paris
+  url: https://oralia.fr/nos-annonces?locations=PARIS&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
+  exclude: nos-annonces
+- name: Oralia Clichy
+  url: https://oralia.fr/nos-annonces?locations=clichy&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
+  exclude: nos-annonces
+- name: Oralia Aubervilliers
+  url: https://oralia.fr/nos-annonces?locations=Aubervilliers+-+93300&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
+  exclude: nos-annonces
+- name: Oralia Asnieres
+  url: https://oralia.fr/nos-annonces?locations=Asni%C3%A8res-sur-Seine+-+92600&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
+  exclude: nos-annonces
+- name: Oralia Gennevilliers
+  url: https://oralia.fr/nos-annonces?locations=Gennevilliers+-+92230&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
+  exclude: nos-annonces
+- name: CDC Habitat 92
+  url: https://www.cdc-habitat.fr/recherche/location/ile-de-france/hauts-de-seine?nbLoyerMax=800
+  exclude: (?i)/recherche/
+- name: Century 21 Ami Asnieres
+  url: https://www.century21lamiimmobilier.com/annonces/location/
+  mode: http
+  pattern: /trouver_logement/detail/|/detail/
 - name: Sergic
   url: https://www.sergic.com/rechercher-un-bien/?type=location&budget=0-850&city=Saint-Ouen-sur-Seine
   exclude: rechercher-un-bien
