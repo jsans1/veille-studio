@@ -5,17 +5,17 @@
   "SGL": 0
  },
  "fails": {
-  "Citya Asnieres": 1,
-  "Citya Aubervilliers": 1,
-  "Citya Clichy": 1,
-  "Citya Gennevilliers": 1,
-  "Citya Pantin": 1,
-  "Citya Saint-Denis": 1,
-  "Citya Saint-Ouen": 1,
+  "Citya Asnieres": 2,
+  "Citya Aubervilliers": 2,
+  "Citya Clichy": 2,
+  "Citya Gennevilliers": 2,
+  "Citya Pantin": 2,
+  "Citya Saint-Denis": 2,
+  "Citya Saint-Ouen": 2,
   "Figaro Immobilier": 3,
-  "JDP 92": 4,
-  "JDP 93": 4,
-  "JDP Paris": 4
+  "JDP 92": 5,
+  "JDP 93": 5,
+  "JDP Paris": 5
  },
  "seen": {
   "AVL Immobilier": [
