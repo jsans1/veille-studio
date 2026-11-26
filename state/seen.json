@@ -5,14 +5,13 @@
   "SGL": 0
  },
  "fails": {
-  "Citya Asnieres": 0,
-  "Citya Aubervilliers": 0,
-  "Citya Clichy": 0,
+  "Citya Asnieres": 1,
+  "Citya Aubervilliers": 1,
+  "Citya Clichy": 1,
   "Citya Gennevilliers": 1,
   "Citya Pantin": 1,
   "Citya Saint-Denis": 1,
   "Citya Saint-Ouen": 1,
-  "Espace Carrez": 1,
   "Figaro Immobilier": 3,
   "JDP 92": 7,
   "JDP 93": 7,
