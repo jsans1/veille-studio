@@ -8,11 +8,11 @@
   "Citya Asnieres": 12,
   "Citya Aubervilliers": 12,
   "Citya Clichy": 12,
-  "Citya Gennevilliers": 12,
+  "Citya Gennevilliers": 13,
   "Citya Pantin": 13,
-  "Citya Saint-Denis": 12,
+  "Citya Saint-Denis": 13,
   "Citya Saint-Ouen": 13,
-  "Ernest et Associes": 1,
+  "Ernest et Associes": 2,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -36,6 +36,7 @@
    "https://www.avl-immobilier.com/fiches/3-32-35_47990057/paris-19-2-pieces-41-m2-1135-00-euros-cc-location-meublee-chauffage-et-eau-chaude-collectifs.html",
    "https://www.avl-immobilier.com/fiches/3-33-27_60640928/fiches.html",
    "https://www.avl-immobilier.com/fiches/3-33-28_51697362/paris-xx-deux-pieces.html",
+   "https://www.avl-immobilier.com/fiches/3-33-29_61702698/pantin-triangle-d-or-appartement-78-m2-3-ou-4-pieces-tres-lumineux-triple-exposition-vue-degagee-cave.html",
    "https://www.avl-immobilier.com/fiches/3-33-30_60388864/fiches.html",
    "https://www.avl-immobilier.com/fiches/3-33-31_61677067/fiches.html"
   ],
@@ -387,7 +388,9 @@
    "https://www.paruvendu.fr/immobilier/location/appartement/1297921681A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297931702A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297931723A1KILHAP000",
-   "https://www.paruvendu.fr/immobilier/location/appartement/1297931799A1KILHAP000"
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297931799A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297975389A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297975405A1KILHAP000"
   ],
   "Procivis": [],
   "Real 31 Clichy": [],
