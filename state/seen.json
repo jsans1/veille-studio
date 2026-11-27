@@ -5,15 +5,13 @@
   "SGL": 0
  },
  "fails": {
-  "CDC Habitat 92": 1,
-  "CDC Habitat 93": 1,
   "Citya Asnieres": 5,
   "Citya Aubervilliers": 5,
   "Citya Clichy": 5,
   "Citya Gennevilliers": 5,
-  "Citya Pantin": 5,
+  "Citya Pantin": 6,
   "Citya Saint-Denis": 5,
-  "Citya Saint-Ouen": 5,
+  "Citya Saint-Ouen": 6,
   "Figaro Immobilier": 3
  },
  "seen": {
