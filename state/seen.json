@@ -5,9 +5,9 @@
   "SGL": 0
  },
  "fails": {
-  "Citya Asnieres": 8,
-  "Citya Aubervilliers": 8,
-  "Citya Clichy": 8,
+  "Citya Asnieres": 9,
+  "Citya Aubervilliers": 9,
+  "Citya Clichy": 9,
   "Citya Gennevilliers": 9,
   "Citya Pantin": 9,
   "Citya Saint-Denis": 9,
@@ -98,7 +98,8 @@
   ],
   "Bienici Paris 19": [
    "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/ag752345-558420389",
-   "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/ag755239-554417483"
+   "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/ag755239-554417483",
+   "https://www.bienici.com/annonce/location/paris-19e/appartement/1piece/mgc-ancien-SNI_0000_264867"
   ],
   "Bienici Paris 9": [],
   "Bienici Saint-Denis": [
@@ -296,7 +297,9 @@
    "https://www.laforet.com/agence-immobiliere/paris18marxdormoy/louer/paris-18/appartement-2-pieces-22719333",
    "https://www.laforet.com/agence-immobiliere/paris18marxdormoy/louer/paris-18/appartement-2-pieces-53042525"
   ],
-  "Laforet Saint-Denis": [],
+  "Laforet Saint-Denis": [
+   "https://www.laforet.com/agence-immobiliere/saint-denis/louer/saint-denis/appartement-1-piece-53022837"
+  ],
   "Laforet Saint-Ouen": [
    "https://www.laforet.com/agence-immobiliere/saint-ouen/louer/saint-ouen/appartement-2-pieces-53038772"
   ],
@@ -320,6 +323,7 @@
   ],
   "Orpi": [
    "https://www.orpi.com/annonce-location-appartement-t1-argenteuil-95100-0d59e09d-18c0-4948-b7b3-0b4fd52671b9",
+   "https://www.orpi.com/annonce-location-appartement-t1-aubervilliers-93300-92e98138-b05b-476b-a59b-48ddc38b13c6",
    "https://www.orpi.com/annonce-location-appartement-t1-les-lilas-93260-181f26d6-5360-4e1e-b39b-4491b8bfdd8a",
    "https://www.orpi.com/annonce-location-appartement-t1-paris-11-75011-1aafdef3-a765-4305-ae46-dd37bccbbf10",
    "https://www.orpi.com/annonce-location-appartement-t1-paris-15-75015-ae367070-e9a2-48d1-bb60-3a2a6db56900",
@@ -336,6 +340,7 @@
    "https://www.orpi.com/annonce-location-appartement-t4-argenteuil-95100-7a0cc293-2572-4d16-9333-fecdccf9c9cd",
    "https://www.orpi.com/annonce-location-appartement-t5-paris-15-75015-8aff0e02-9066-453d-bc94-c06d41e747cc",
    "https://www.orpi.com/annonce-location-maison-t2-la-courneuve-93120-c18ce742-dc1a-494f-8478-4e6934eeb264",
+   "https://www.orpi.com/annonce-location-maison-t8-argenteuil-95100-56fac9b4-e886-4694-8a2f-4f63ae1520a2",
    "https://www.orpi.com/annonce-location-stationnement-pantin-93500-d3397773-c015-4016-b2ae-9fbce0a1f14f",
    "https://www.orpi.com/annonce-location-stationnement-paris-12-75012-9003f0d3-1470-43e7-8f95-b431b3b8debd",
    "https://www.orpi.com/annonce-location-stationnement-paris-14-75014-95b3b234-5a34-4815-a906-10cfd3d03cb4"
