@@ -194,7 +194,7 @@ sites:
   url: https://oralia.fr/nos-annonces?locations=Gennevilliers+-+92230&price%5BminPrice%5D=&price%5BmaxPrice%5D=850&surface%5BminSurface%5D=22&surface%5BmaxSurface%5D=&type=rental&from=filter
   exclude: nos-annonces
 - name: CDC Habitat 92
-  url: https://www.cdc-habitat.fr/recherche/location/ile-de-france/hauts-de-seine?nbLoyerMax=800
+  url: https://www.cdc-habitat.fr/recherche/location/ile-de-france/hauts-de-seine?nbLoyerMax=850&nbPiece[]=1&nbPiece[]=2
   exclude: (?i)/recherche/
 - name: Century 21 Ami Asnieres
   url: https://www.century21lamiimmobilier.com/annonces/location/
@@ -260,5 +260,5 @@ sites:
   pattern: /location-(appartement|maison)-
   max_price: 680
 - name: CDC Habitat 93
-  url: https://www.cdc-habitat.fr/Recherche/show/lbLieu=Seine-Saint-Denis%3B&nbLoyerMax=850&cdTypage=Location&
-  exclude: /Recherche/
+  url: https://www.cdc-habitat.fr/recherche/location/ile-de-france/seine-saint-denis?nbLoyerMax=850&nbPiece[]=1&nbPiece[]=2
+  exclude: (?i)/recherche/
