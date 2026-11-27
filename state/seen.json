@@ -8,11 +8,10 @@
   "Citya Asnieres": 4,
   "Citya Aubervilliers": 4,
   "Citya Clichy": 4,
-  "Citya Gennevilliers": 4,
+  "Citya Gennevilliers": 5,
   "Citya Pantin": 5,
-  "Citya Saint-Denis": 4,
+  "Citya Saint-Denis": 5,
   "Citya Saint-Ouen": 5,
-  "Ernest et Associes": 1,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -283,6 +282,7 @@
    "https://www.laforet.com/agence-immobiliere/courbevoie/louer/paris-17/appartement-5-pieces-53035692",
    "https://www.laforet.com/agence-immobiliere/neuillysurseine/louer/paris-17/appartement-2-pieces-52835618",
    "https://www.laforet.com/agence-immobiliere/paris17batignolles/louer/paris-17/appartement-2-pieces-17960576",
+   "https://www.laforet.com/agence-immobiliere/paris17guymoquet/louer/paris-17/appartement-2-pieces-21495275",
    "https://www.laforet.com/agence-immobiliere/paris17levis/louer/paris-17/appartement-2-pieces-16884984",
    "https://www.laforet.com/agence-immobiliere/paris17levis/louer/paris-17/appartement-2-pieces-53039043"
   ],
@@ -346,6 +346,7 @@
   "ParuVendu": [
    "https://www.paruvendu.fr/immobilier/location/appartement/1280455880A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1281153619A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1292540801A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1295890706A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1296188641A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1296218468A1KILHAP000",
