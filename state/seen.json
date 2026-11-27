@@ -8,9 +8,9 @@
   "Citya Asnieres": 11,
   "Citya Aubervilliers": 11,
   "Citya Clichy": 11,
-  "Citya Gennevilliers": 11,
+  "Citya Gennevilliers": 12,
   "Citya Pantin": 12,
-  "Citya Saint-Denis": 11,
+  "Citya Saint-Denis": 12,
   "Citya Saint-Ouen": 12,
   "Figaro Immobilier": 3
  },
@@ -50,6 +50,7 @@
   ],
   "Bienici Asnieres": [
    "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/1piece/ag210198-497513981",
+   "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/1piece/laforet-immo-facile-21119625",
    "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/2pieces/ag921430-561165932",
    "https://www.bienici.com/annonce/location/asnieres-sur-seine/appartement/apimo-86418132"
   ],
@@ -110,7 +111,9 @@
    "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/guy-hoquet-immo-facile-5563534",
    "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/iad-france-2150019",
    "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/ifsp6a-5492290",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/1piece/laforet-immo-facile-53022837",
    "https://www.bienici.com/annonce/location/saint-denis/appartement/2pieces/hektor-fadeuxi11-88",
+   "https://www.bienici.com/annonce/location/saint-denis/appartement/2pieces/netty-sthimmo-appt-2478",
    "https://www.bienici.com/annonce/location/saint-denis/appartement/4pieces/ag752345-551254499",
    "https://www.bienici.com/annonce/location/saint-denis/appartement/5pieces/ag603630-514172303"
   ],
