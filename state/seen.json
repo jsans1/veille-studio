@@ -5,13 +5,6 @@
   "SGL": 0
  },
  "fails": {
-  "Citya Asnieres": 15,
-  "Citya Aubervilliers": 15,
-  "Citya Clichy": 15,
-  "Citya Gennevilliers": 16,
-  "Citya Pantin": 16,
-  "Citya Saint-Denis": 16,
-  "Citya Saint-Ouen": 16,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -164,13 +157,6 @@
   "Century 21 Wilson": [
    "https://www.century21-wilson-st-ouen.com/trouver_logement/detail/15665372289"
   ],
-  "Citya Asnieres": [],
-  "Citya Aubervilliers": [],
-  "Citya Clichy": [],
-  "Citya Gennevilliers": [],
-  "Citya Pantin": [],
-  "Citya Saint-Denis": [],
-  "Citya Saint-Ouen": [],
   "Clichy Immobilier": [],
   "ERA": [
    "https://www.eraimmobilier.com/annonces/576257"

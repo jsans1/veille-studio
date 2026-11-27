@@ -64,10 +64,6 @@ sites:
 - name: Laforet Asnieres
   url: https://www.laforet.com/ville/location-appartement-asnieres-sur-seine-92600
   pattern: /louer/asnieres-sur-seine/[^/]*-\d{6,}$
-- name: Citya Asnieres
-  url: https://www.citya.com/annonces/location/asnieres-sur-seine-92600?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/asnieres-sur-seine-92600/
-  every: 3
 - name: Inli Asnieres
   url: https://www.inli.fr/locations/offres/asnieres-sur-seine-92600_v:92600/
   pattern: /location-(appartement|maison)-
@@ -78,10 +74,6 @@ sites:
 - name: Laforet Gennevilliers
   url: https://www.laforet.com/ville/location-appartement-gennevilliers-92230
   pattern: /louer/gennevilliers/[^/]*-\d{6,}$
-- name: Citya Gennevilliers
-  url: https://www.citya.com/annonces/location/gennevilliers-92230?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/gennevilliers-92230/
-  every: 3
 - name: Inli Gennevilliers
   url: https://www.inli.fr/locations/offres/gennevilliers-92230_v:92230/
   pattern: /location-(appartement|maison)-
@@ -99,26 +91,6 @@ sites:
 - name: Procivis
   url: https://www.procivis.fr/louer?locations%5B%5D=CT93070&locations%5B%5D=CT92024&locations%5B%5D=CT93066&locations%5B%5D=CT93001&locations%5B%5D=CT93055&locations%5B%5D=CT92004&locations%5B%5D=CT92036&radius=1&max_price=850&sort=newest&commit=Rechercher
   exclude: locations
-- name: Citya Saint-Ouen
-  url: https://www.citya.com/annonces/location/saint-ouen-sur-seine-93400?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/saint-ouen-sur-seine-93400/
-  every: 3
-- name: Citya Clichy
-  url: https://www.citya.com/annonces/location/clichy-92110?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/clichy-92110/
-  every: 3
-- name: Citya Saint-Denis
-  url: https://www.citya.com/annonces/location/saint-denis-93200?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/saint-denis-932[01]0/
-  every: 3
-- name: Citya Aubervilliers
-  url: https://www.citya.com/annonces/location/aubervilliers-93300?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/aubervilliers-93300/
-  every: 3
-- name: Citya Pantin
-  url: https://www.citya.com/annonces/location/pantin-93500?prixMax=850&surfaceMin=22
-  pattern: /annonces/location/[^/]+/pantin-93500/
-  every: 3
 - name: Moriss Immobilier
   url: https://www.morissimmobilier.com/louer-appartements/?type=Appartement&surface=22&nb-bedrooms=&budget=850
   pattern: /biens/

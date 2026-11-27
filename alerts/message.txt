@@ -1,1 +1,4 @@
-
+Veille studio : les 7 pages Citya étaient bloquées (erreur 403 depuis les serveurs GitHub, 15 échecs de suite).
+Je les ai retirées de la liste (détail dans le README, section Pages retirées).
+Le reste tourne bien : passages toutes les 20 min, aucun échec.
+Rien à faire, sauf si tu veux suivre Citya à la main sur citya.com.

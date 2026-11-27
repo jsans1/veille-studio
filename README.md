@@ -37,3 +37,4 @@ Onglet **Actions > Veille studio > ... > Disable workflow**. Une fois le studio 
 
 ## Pages retirées
 - 2026-11-26 : JDP Paris (https://www.journaldesparticuliers.com/immobilier/location-appartement-a-paris-75-de-700-a-1000-euros-de-25-a-50-m2-g439), JDP 93 et JDP 92 (journaldesparticuliers.com) : aucune réussite depuis les serveurs GitHub (7 échecs consécutifs).
+- 2026-11-27 : Citya Asnieres, Gennevilliers, Saint-Ouen, Clichy, Saint-Denis, Aubervilliers et Pantin (https://www.citya.com/annonces/location/...) : blocage HTTP 403 depuis les serveurs GitHub (15 à 16 échecs consécutifs).
