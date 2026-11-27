@@ -5,14 +5,16 @@
   "SGL": 0
  },
  "fails": {
-  "Citya Asnieres": 11,
-  "Citya Aubervilliers": 11,
-  "Citya Clichy": 11,
+  "Agence La Garenne": 1,
+  "Citya Asnieres": 12,
+  "Citya Aubervilliers": 12,
+  "Citya Clichy": 12,
   "Citya Gennevilliers": 12,
   "Citya Pantin": 12,
   "Citya Saint-Denis": 12,
   "Citya Saint-Ouen": 12,
-  "Figaro Immobilier": 3
+  "Figaro Immobilier": 3,
+  "IBI Immobilier": 1
  },
  "seen": {
   "AVL Immobilier": [
