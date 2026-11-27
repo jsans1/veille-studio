@@ -5,13 +5,15 @@
   "SGL": 0
  },
  "fails": {
+  "CDC Habitat 92": 1,
+  "CDC Habitat 93": 1,
   "Citya Asnieres": 10,
   "Citya Aubervilliers": 10,
   "Citya Clichy": 10,
   "Citya Gennevilliers": 10,
-  "Citya Pantin": 10,
+  "Citya Pantin": 11,
   "Citya Saint-Denis": 10,
-  "Citya Saint-Ouen": 10,
+  "Citya Saint-Ouen": 11,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -140,6 +142,7 @@
    "https://www.century21.fr/trouver_logement/detail/17025850102",
    "https://www.century21.fr/trouver_logement/detail/17033768769",
    "https://www.century21.fr/trouver_logement/detail/17055471250",
+   "https://www.century21.fr/trouver_logement/detail/17073745398",
    "https://www.century21.fr/trouver_logement/detail/17123912402",
    "https://www.century21.fr/trouver_logement/detail/17144017127",
    "https://www.century21.fr/trouver_logement/detail/17147859486",
@@ -230,6 +233,7 @@
   "Inli Paris": [
    "https://www.inli.fr/location-appartement-paris-18eme-75018/441-3122-9835",
    "https://www.inli.fr/location-appartement-paris-75010/441-2425-3298",
+   "https://www.inli.fr/location-appartement-paris-75011/PRV-251729",
    "https://www.inli.fr/location-appartement-paris-75011/PRV-252778",
    "https://www.inli.fr/location-appartement-paris-75012/PRV-217514",
    "https://www.inli.fr/location-appartement-paris-75012/PRV-217541",
