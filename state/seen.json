@@ -8,10 +8,11 @@
   "Citya Asnieres": 5,
   "Citya Aubervilliers": 5,
   "Citya Clichy": 5,
-  "Citya Gennevilliers": 5,
+  "Citya Gennevilliers": 6,
   "Citya Pantin": 6,
-  "Citya Saint-Denis": 5,
+  "Citya Saint-Denis": 6,
   "Citya Saint-Ouen": 6,
+  "Ernest et Associes": 1,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -129,6 +130,7 @@
   "CDC Habitat 93": [
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/paris/paris/861549",
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-et-marne/chelles/1175218",
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/bondy/821408",
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/gagny/742365"
   ],
   "Century 21": [
