@@ -9,9 +9,10 @@
   "Citya Aubervilliers": 9,
   "Citya Clichy": 9,
   "Citya Gennevilliers": 9,
-  "Citya Pantin": 9,
+  "Citya Pantin": 10,
   "Citya Saint-Denis": 9,
-  "Citya Saint-Ouen": 9,
+  "Citya Saint-Ouen": 10,
+  "Ernest et Associes": 1,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -273,6 +274,7 @@
   "Laforet Asnieres": [
    "https://www.laforet.com/agence-immobiliere/asnieres-sur-seine/louer/asnieres-sur-seine/appartement-3-pieces-53015712",
    "https://www.laforet.com/agence-immobiliere/asnieres-sur-seine/louer/asnieres-sur-seine/appartement-3-pieces-53027774",
+   "https://www.laforet.com/agence-immobiliere/courbevoie/louer/asnieres-sur-seine/appartement-1-piece-21119625",
    "https://www.laforet.com/agence-immobiliere/paris15lourmel/louer/asnieres-sur-seine/appartement-2-pieces-53030745",
    "https://www.laforet.com/agence-immobiliere/paris18julesjoffrin/louer/asnieres-sur-seine/appartement-2-pieces-53028881"
   ],
