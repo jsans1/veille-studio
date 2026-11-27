@@ -229,6 +229,9 @@ def run() -> int:
 
     with open(SITES_FILE, encoding="utf-8") as f:
         sites = yaml.safe_load(f)["sites"]
+    # Sites prioritaires (bailleurs sans frais d'agence) : en tête de passage, puis revus en fin de passage
+    prio = [s for s in sites if re.match(r"(Inli|CDC)", s["name"])]
+    sites = prio + [s for s in sites if s not in prio] + prio
 
     state = load_state()
     seen = state.setdefault("seen", {})
@@ -238,6 +241,7 @@ def run() -> int:
     errors = 0
 
     try:
+        deja_vus = set()
         for site in sites:
             key = site["name"]
             url = site["url"]
@@ -255,6 +259,9 @@ def run() -> int:
                 links = [u for u, _ in listings]
                 summaries = dict(listings)
             except Exception as e:  # noqa: BLE001 - on veut continuer sur les autres sites
+                if key in deja_vus:
+                    continue  # 2e visite d'un site prioritaire : l'échec est déjà compté
+                deja_vus.add(key)
                 errors += 1
                 fails[key] = fails.get(key, 0) + 1
                 print(f"ERREUR {key}: {e}")
@@ -264,6 +271,7 @@ def run() -> int:
                            click=url, tags=["warning"], priority=2)
                 continue
 
+            deja_vus.add(key)
             fails.pop(key, None)
 
             # Surveillance par compteur, pour les sites dont les annonces n'ont pas de lien lisible
