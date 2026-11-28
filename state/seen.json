@@ -5,9 +5,6 @@
   "SGL": 0
  },
  "fails": {
-  "CDC Habitat 92": 1,
-  "CDC Habitat 93": 1,
-  "Ernest et Associes": 1,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -132,7 +129,8 @@
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-et-marne/chelles/1175218",
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/bondy/821408",
    "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/gagny/1100740",
-   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/gagny/742365"
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/gagny/742365",
+   "https://www.cdc-habitat.fr/annonces-immobilieres/location/ile-de-france/seine-saint-denis/villemomble/50305"
   ],
   "Century 21": [
    "https://www.century21.fr/trouver_logement/detail/15187517138",
