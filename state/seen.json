@@ -5,8 +5,7 @@
   "SGL": 0
  },
  "fails": {
-  "Figaro Immobilier": 3,
-  "Guy Hoquet": 2
+  "Figaro Immobilier": 3
  },
  "seen": {
   "AVL Immobilier": [
@@ -394,7 +393,8 @@
    "https://www.paruvendu.fr/immobilier/location/appartement/1297931723A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297931799A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297975389A1KILHAP000",
-   "https://www.paruvendu.fr/immobilier/location/appartement/1297975405A1KILHAP000"
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297975405A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1298007023A1KILHAP000"
   ],
   "Procivis": [],
   "Real 31 Clichy": [],
