@@ -5,7 +5,10 @@
   "SGL": 0
  },
  "fails": {
-  "Figaro Immobilier": 3
+  "Agence La Garenne": 1,
+  "Figaro Immobilier": 3,
+  "Generation Immo": 1,
+  "IBI Immobilier": 1
  },
  "seen": {
   "AVL Immobilier": [
