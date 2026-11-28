@@ -5,7 +5,6 @@
   "SGL": 0
  },
  "fails": {
-  "Ernest et Associes": 1,
   "Figaro Immobilier": 3
  },
  "seen": {
@@ -146,7 +145,8 @@
    "https://www.century21.fr/trouver_logement/detail/17144017127",
    "https://www.century21.fr/trouver_logement/detail/17146967240",
    "https://www.century21.fr/trouver_logement/detail/17147859486",
-   "https://www.century21.fr/trouver_logement/detail/17152324015"
+   "https://www.century21.fr/trouver_logement/detail/17152324015",
+   "https://www.century21.fr/trouver_logement/detail/17158670257"
   ],
   "Century 21 Ami Asnieres": [
    "https://www.century21lamiimmobilier.com/trouver_logement/detail/15847625646",
@@ -159,7 +159,9 @@
   "Century 21 Wilson": [
    "https://www.century21-wilson-st-ouen.com/trouver_logement/detail/15665372289"
   ],
-  "Clichy Immobilier": [],
+  "Clichy Immobilier": [
+   "https://www.clichyimmobilier.fr/location/appartement-studio-1-piece-levallois-perret-92300,LA2172"
+  ],
   "ERA": [
    "https://www.eraimmobilier.com/annonces/576257"
   ],
@@ -395,6 +397,7 @@
    "https://www.paruvendu.fr/immobilier/location/appartement/1297931799A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297975389A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1297975405A1KILHAP000",
+   "https://www.paruvendu.fr/immobilier/location/appartement/1297975857A1KILHAP000",
    "https://www.paruvendu.fr/immobilier/location/appartement/1298007023A1KILHAP000"
   ],
   "Procivis": [],
